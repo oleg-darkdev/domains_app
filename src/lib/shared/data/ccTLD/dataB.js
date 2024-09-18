@@ -142,7 +142,7 @@ const data = [
     notes: [
       `The .bh domain was first delegated in 1994 to the University of Bahrain Computer Center. In 1999, the domain was delegated to the Bahrain Telecommunications Company, which since remains the sponsoring organisation.`,
       `In 2002, the Telecommunications Regulatory Authority was established, and in 2008, the Minister of Telecommunications of Bahrain assigned TRA as the governmental agency responsible for the management of the .bh top-level domain.`,
-      `On 6 December 2011, the Telecommunication Regulatory Authority commenced a request to ICANN for redelegation of the “.BH” top-level domain.[3] In March 2012, this request was completed.[4]`,
+      `On 6 December 2011, the Telecommunication Regulatory Authority commenced a request to ccTLD for redelegation of the “.BH” top-level domain.[3] In March 2012, this request was completed.[4]`,
     ],
       idn: 0,
       dnssec: 0,
@@ -388,7 +388,7 @@ const data = [
     },
     notes: [
       `Also unofficially used in the province of Bozen (or South Tyrol, see .st).`,
-      `At one point, .bz domains were being marketed by an American company as standing for "business", and that company took legal action against ICANN in an attempt to block the .biz domain as "unfair competition".`,
+      `At one point, .bz domains were being marketed by an American company as standing for "business", and that company took legal action against ccTLD in an attempt to block the .biz domain as "unfair competition".`,
       `Currently, the registry is in Belize, but is still marketing the domain outside the country as "meaning business". Internationalized domains with a wide assortment of non-ASCII characters are also available.`,
       `Many websites in Italy use this domain, because of the abbreviation of Bolzano, the capital of the province of South Tyrol, and the fact that the official abbreviation of the province is BZ. Many websites use the Italian subdomain .bz.it. Servers for the open source game BZFlag often use names ending in .bz`,
     ],

@@ -18,8 +18,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.de',
-      logo: '/images/domains/icann/de.svg',
-      promoImg: '/images/domains/icann/de.svg'
+      logo: '/images/domains/ccTLD/de.svg',
+      promoImg: '/images/domains/ccTLD/de.svg'
   },
   {
     name: '.dj',
@@ -38,8 +38,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.dj',
-      logo: '/images/domains/icann/dj.svg',
-      promoImg: '/images/domains/icann/dj.svg'
+      logo: '/images/domains/ccTLD/dj.svg',
+      promoImg: '/images/domains/ccTLD/dj.svg'
   },
   {
     name: '.dk',
@@ -58,8 +58,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.dk',
-      logo: '/images/domains/icann/dk.svg',
-      promoImg: '/images/domains/icann/dk.svg'
+      logo: '/images/domains/ccTLD/dk.svg',
+      promoImg: '/images/domains/ccTLD/dk.svg'
   },
   {
     name: '.dm',
@@ -78,8 +78,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.dm',
-      logo: '/images/domains/icann/dm.svg',
-      promoImg: '/images/domains/icann/dm.svg'
+      logo: '/images/domains/ccTLD/dm.svg',
+      promoImg: '/images/domains/ccTLD/dm.svg'
   },
   {
     name: '.do',
@@ -98,8 +98,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.do',
-      logo: '/images/domains/icann/do.svg',
-      promoImg: '/images/domains/icann/do.svg'
+      logo: '/images/domains/ccTLD/do.svg',
+      promoImg: '/images/domains/ccTLD/do.svg'
   },
   {
     name: '.dz',
@@ -118,10 +118,10 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.dz',
-      logo: '/images/domains/icann/dz.svg',
-      promoImg: '/images/domains/icann/dz.svg'
+      logo: '/images/domains/ccTLD/dz.svg',
+      promoImg: '/images/domains/ccTLD/dz.svg'
   },
- 
+
 ]
 
 

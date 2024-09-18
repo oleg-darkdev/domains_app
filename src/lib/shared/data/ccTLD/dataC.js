@@ -19,8 +19,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.ca',
-      logo: '/images/domains/icann/ca.svg',
-      promoImg: '/images/domains/icann/ca.svg'
+      logo: '/images/domains/ccTLD/ca.svg',
+      promoImg: '/images/domains/ccTLD/ca.svg'
   },
   {
     name: '.cc',
@@ -43,8 +43,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cc',
-      logo: '/images/domains/icann/cc.svg',
-      promoImg: '/images/domains/icann/cc.svg'
+      logo: '/images/domains/ccTLD/cc.svg',
+      promoImg: '/images/domains/ccTLD/cc.svg'
   },
   {
     name: '.cd',
@@ -66,8 +66,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cd',
-      logo: '/images/domains/icann/cd.svg',
-      promoImg: '/images/domains/icann/cd.svg'
+      logo: '/images/domains/ccTLD/cd.svg',
+      promoImg: '/images/domains/ccTLD/cd.svg'
   },
   {
     name: '.cf',
@@ -89,8 +89,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cf',
-      logo: '/images/domains/icann/cf.svg',
-      promoImg: '/images/domains/icann/cf.svg'
+      logo: '/images/domains/ccTLD/cf.svg',
+      promoImg: '/images/domains/ccTLD/cf.svg'
   },
   {
     name: '.cg',
@@ -108,8 +108,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cg',
-      logo: '/images/domains/icann/cg.svg',
-      promoImg: '/images/domains/icann/cg.svg'
+      logo: '/images/domains/ccTLD/cg.svg',
+      promoImg: '/images/domains/ccTLD/cg.svg'
   },
   {
     name: '.ch',
@@ -133,8 +133,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.ch',
-      logo: '/images/domains/icann/ch.svg',
-      promoImg: '/images/domains/icann/ch.svg'
+      logo: '/images/domains/ccTLD/ch.svg',
+      promoImg: '/images/domains/ccTLD/ch.svg'
   },
   {
     name: '.ci',
@@ -153,8 +153,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.ci',
-      logo: '/images/domains/icann/ci.svg',
-      promoImg: '/images/domains/icann/ci.svg'
+      logo: '/images/domains/ccTLD/ci.svg',
+      promoImg: '/images/domains/ccTLD/ci.svg'
   },
   {
     name: '.ck',
@@ -174,8 +174,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.ck',
-      logo: '/images/domains/icann/ck.svg',
-      promoImg: '/images/domains/icann/ck.svg'
+      logo: '/images/domains/ccTLD/ck.svg',
+      promoImg: '/images/domains/ccTLD/ck.svg'
   },
   {
     name: '.cl',
@@ -194,8 +194,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cl',
-      logo: '/images/domains/icann/cl.svg',
-      promoImg: '/images/domains/icann/cl.svg'
+      logo: '/images/domains/ccTLD/cl.svg',
+      promoImg: '/images/domains/ccTLD/cl.svg'
   },
   {
     name: '.cm',
@@ -217,8 +217,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cm',
-      logo: '/images/domains/icann/cm.svg',
-      promoImg: '/images/domains/icann/cm.svg'
+      logo: '/images/domains/ccTLD/cm.svg',
+      promoImg: '/images/domains/ccTLD/cm.svg'
   },
   {
     name: '.cn',
@@ -239,8 +239,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cn',
-      logo: '/images/domains/icann/cn.svg',
-      promoImg: '/images/domains/icann/cn.svg'
+      logo: '/images/domains/ccTLD/cn.svg',
+      promoImg: '/images/domains/ccTLD/cn.svg'
   },
   {
     name: '.co',
@@ -253,8 +253,8 @@ const data = [
       `Marketed as a global domain. Anyone can register.`,
       `CO domains had been registered by people in over 200 countries and territories worldwide.`,
       `With respect to search engine optimization, Google confirmed that "it will rank .co domains appropriately if the content is globally targeted".`,
-      `.CO Internet S.A.S from Bogotá, Colombia, was appointed as the manager for the .co TLD through a public procurement process that took place in early 2009. .CO Internet received the re-delegation approval as the manager of the .co TLD by ICANN on December 9, 2009, and received formal confirmation of the request by the United States Department of Commerce on December 23, 2009.`,
-      `n 2001, the university began to consider the possibility of marketing the domain as an alternative to the generic top-level domains. The government of Colombia objected on the basis that the university, a private entity, did not have regulatory oversight of the TLD and the Minister of Communications, Angela Montoya Holguín, wrote to them requesting that they not continue. In turn the university wrote to ICANN, rejecting the government's objections and stating their intention to appoint a subcontractor to handle the commercialization of the domain.`,
+      `.CO Internet S.A.S from Bogotá, Colombia, was appointed as the manager for the .co TLD through a public procurement process that took place in early 2009. .CO Internet received the re-delegation approval as the manager of the .co TLD by ccTLD on December 9, 2009, and received formal confirmation of the request by the United States Department of Commerce on December 23, 2009.`,
+      `n 2001, the university began to consider the possibility of marketing the domain as an alternative to the generic top-level domains. The government of Colombia objected on the basis that the university, a private entity, did not have regulatory oversight of the TLD and the Minister of Communications, Angela Montoya Holguín, wrote to them requesting that they not continue. In turn the university wrote to ccTLD, rejecting the government's objections and stating their intention to appoint a subcontractor to handle the commercialization of the domain.`,
       `At that moment only accredited registrars are able to sell .co domain names directly; other registrars selling .co domain names are acting as resellers. The list of accredited registrars is available on the .CO Internet website,[17] and as of October 2011 there are 20 accredited registrars. Some of the 20 registrars operate under multiple brands.`,
     ],
       idn: 0,
@@ -263,8 +263,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.co',
-      logo: '/images/domains/icann/co.svg',
-      promoImg: '/images/domains/icann/co.svg'
+      logo: '/images/domains/ccTLD/co.svg',
+      promoImg: '/images/domains/ccTLD/co.svg'
   },
   {
     name: '.cr',
@@ -282,8 +282,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cr',
-      logo: '/images/domains/icann/cr.svg',
-      promoImg: '/images/domains/icann/cr.svg'
+      logo: '/images/domains/ccTLD/cr.svg',
+      promoImg: '/images/domains/ccTLD/cr.svg'
   },
   {
     name: '.cu',
@@ -302,8 +302,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cu',
-      logo: '/images/domains/icann/cu.svg',
-      promoImg: '/images/domains/icann/cu.svg'
+      logo: '/images/domains/ccTLD/cu.svg',
+      promoImg: '/images/domains/ccTLD/cu.svg'
   },
   {
     name: '.cv',
@@ -324,8 +324,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cv',
-      logo: '/images/domains/icann/cv.svg',
-      promoImg: '/images/domains/icann/cv.svg'
+      logo: '/images/domains/ccTLD/cv.svg',
+      promoImg: '/images/domains/ccTLD/cv.svg'
   },
   {
     name: '.cw',
@@ -346,8 +346,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cw',
-      logo: '/images/domains/icann/cw.svg',
-      promoImg: '/images/domains/icann/cw.svg'
+      logo: '/images/domains/ccTLD/cw.svg',
+      promoImg: '/images/domains/ccTLD/cw.svg'
   },
   {
     name: '.cx',
@@ -368,8 +368,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cx',
-      logo: '/images/domains/icann/cx.svg',
-      promoImg: '/images/domains/icann/cx.svg'
+      logo: '/images/domains/ccTLD/cx.svg',
+      promoImg: '/images/domains/ccTLD/cx.svg'
   },
   {
     name: '.cy',
@@ -387,8 +387,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cy',
-      logo: '/images/domains/icann/cy.svg',
-      promoImg: '/images/domains/icann/cy.svg'
+      logo: '/images/domains/ccTLD/cy.svg',
+      promoImg: '/images/domains/ccTLD/cy.svg'
   },
   {
     name: '.cz',
@@ -411,10 +411,10 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cz',
-      logo: '/images/domains/icann/cz.svg',
-      promoImg: '/images/domains/icann/cz.svg'
+      logo: '/images/domains/ccTLD/cz.svg',
+      promoImg: '/images/domains/ccTLD/cz.svg'
   },
-  
+
 
 ]
 

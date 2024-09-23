@@ -1,9 +1,12 @@
-import gTLD from './gTLD/data'
+import gTLD from './gTLD/data.js'
 
 const data = {
   title: 'Generic top-level domains (gTLDs)',
   shortDesc: 'Generic top-level domains (gTLDs) are one of the categories of top-level domains (TLDs) maintained by the Internet Assigned Numbers Authority (IANA) for use in the Domain Name System of the Internet.',
-  domains: [gTLD],
+  domains: {
+    all: [gTLD],
+    alphabet: {}
+  },
   promoImg: '',
   id: 0,
   wikipedia: 'https://en.wikipedia.org/wiki/Generic_top-level_domain',

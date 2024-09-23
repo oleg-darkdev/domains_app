@@ -2,7 +2,10 @@ import template from './template/data'
 
 const data = {
   title: '',
-  domains: [template],
+  domains: {
+    all: [template],
+    alphabet: {}
+  },
   promoImg: '',
   id: 0,
   wikipedia: '',

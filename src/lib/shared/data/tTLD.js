@@ -1,8 +1,11 @@
-import tTLD from './tTLD/data'
+import tTLD from './tTLD/data.js'
 
 const data = {
   title: 'Test top-level domains (tTLD).',
-  domains: [tTLD],
+  domains: {
+    all: [tTLD],
+    alphabet: {}
+  },
   promoImg: '',
   id: 0,
   wikipedia: 'https://en.wikipedia.org/wiki/.test',

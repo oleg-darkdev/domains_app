@@ -1,9 +1,12 @@
-import arpa from './arpa/data'
+import arpa from './arpa/data.js'
 
 const data = {
   title: 'infrastructure top-level domain (ARPA).',
   shortDesc: 'The domain name arpa is a top-level domain (TLD) in the Domain Name System (DNS) of the Internet.',
-  domains: [arpa],
+      domains: {
+    all: [arpa],
+    alphabet: {}
+  },
   promoImg: '',
   id: 0,
   wikipedia: 'https://en.wikipedia.org/wiki/.arpa',

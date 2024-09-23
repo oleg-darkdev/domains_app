@@ -2,7 +2,10 @@ const data = [
   {
     name: '.hk',
     entity: 'Hong Kong',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Hong Kong Internet Registration Corporation Ltd.',
       link: 'https://www.hkirc.hk/en/'
     },
@@ -11,19 +14,22 @@ const data = [
       `Hong Kong Internet Registration Corporation (HKIRC) is a non-profit making, non-statutory, member-based corporation established in 2001. `,
       `From its inception in 1990 until 2002, the domain was administered by the Joint University Computer Centre.[1] In 2002, through a "Memorandum of Understanding" with the Hong Kong government, HKIRC took over the administration of '.hk',[2] while the Hong Kong Domain Name Registration Corporation Limited (HKDNR), its wholly owned subsidiary of HKIRC, is responsible for the day-to-day management of the registration service [3] for Specific '.hk' Domain Names and Generic '.hk' Domain Name (e.g., www.myname.hk). '.hk' domain names can be registered at both the second and third level. `,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.hk',
-      logo: '/images/domains/icann/hk.svg',
-      promoImg: '/images/domains/icann/hk.svg'
+       logo: '/images/domains/ccTLD/hk.svg',
+      promoImg: '/images/domains/ccTLD/hk.svg'
   },
   {
     name: '.hm',
     entity: 'Heard Island and McDonald Islands',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'HM Domain Registry',
       link: 'https://en.wikipedia.org/wiki/HM_Domain_Registry'
     },
@@ -33,38 +39,44 @@ const data = [
       `The .hm registry was added in July 1997. Registration services are provided by the HM Domain Registry via registry.hm. `,
       `Domain registration is directly at the second level, and is managed by the HM Domain Registry. Any entity can register an .hm domain.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.hm',
-      logo: '/images/domains/icann/hm.svg',
-      promoImg: '/images/domains/icann/hm.svg'
+       logo: '/images/domains/ccTLD/hm.svg',
+      promoImg: '/images/domains/ccTLD/hm.svg'
   },
   {
     name: '.hn',
     entity: 'Honduras',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Red de Desarrollo Sostenible Honduras',
       link: 'https://en.wikipedia.org/wiki/Red_de_Desarrollo_Sostenible_Honduras'
     },
     notes: [
       `Introduced	16 April 1993.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.hn',
-      logo: '/images/domains/icann/hn.svg',
-      promoImg: '/images/domains/icann/hn.svg'
+       logo: '/images/domains/ccTLD/hn.svg',
+      promoImg: '/images/domains/ccTLD/hn.svg'
   },
   {
     name: '.hr',
     entity: 'Croatia',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'CARNET',
       link: 'https://en.wikipedia.org/wiki/CARNET'
     },
@@ -73,19 +85,22 @@ const data = [
       `Registrants are classified into a number of different groups with different rules about their domain registrations. A requirement of connection to Croatia, such as being a citizen, permanent resident, registered company or EU company with VAT ID evidenced in the VIES system, is common to all of the categories except for the .com.hr. Third level domains (example.com.hr) are allowed to be registered for anyone in the world as long as they provide a local contact. `,
       `There are also third-level registrations including of individuals in a few specialized domains such as .iz.hr (.from.hr), and an unlimited number of registrations in .com.hr, but these are unpopular compared to the second-level names registered directly under .hr.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.hr',
-      logo: '/images/domains/icann/hr.svg',
-      promoImg: '/images/domains/icann/hr.svg'
+       logo: '/images/domains/ccTLD/hr.svg',
+      promoImg: '/images/domains/ccTLD/hr.svg'
   },
   {
     name: '.ht',
     entity: 'Haiti',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: `Réseau de Développement Durable d'Haïti`,
       link: ''
     },
@@ -93,19 +108,22 @@ const data = [
       `It was introduced in 1997 and is managed Réseau de Développement Durable d'Haïti (RDDH) with assistance from the State University of Haiti.`,
       `Although it was originally intended for Haitian people and businesses, per NIC Haïti, anyone in the world can register a .ht domain name. `,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.ht',
-      logo: '/images/domains/icann/ht.svg',
-      promoImg: '/images/domains/icann/ht.svg'
+       logo: '/images/domains/ccTLD/ht.svg',
+      promoImg: '/images/domains/ccTLD/ht.svg'
   },
   {
     name: '.hu',
     entity: 'Hungary',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Council of Hungarian Internet Providers',
       link: 'https://en.wikipedia.org/wiki/Council_of_Hungarian_Internet_Providers'
     },
@@ -113,16 +131,16 @@ const data = [
       `Limited to citizens of the European Union or entities established by law within the territory of the EU.`,
       `Registrations are processed via accredited registrars.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.hu',
-      logo: '/images/domains/icann/hu.svg',
-      promoImg: '/images/domains/icann/hu.svg'
+       logo: '/images/domains/ccTLD/hu.svg',
+      promoImg: '/images/domains/ccTLD/hu.svg'
   },
- 
+
 ]
 
 

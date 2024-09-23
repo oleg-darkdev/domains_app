@@ -2,26 +2,32 @@ const data = [
   {
     name: '.ba',
     entity: 'Bosnia and Herzegovina',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'University of Sarajevo - University tele-informatic Centre',
       link: 'https://www.utic.unsa.ba/'
     },
     notes: [
       `Registration restrictions must be located in Bosnia-Herzegovina or have representative there`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.ba',
-      logo: '/images/domains/ccTLD/ba.svg',
+       logo: '/images/domains/ccTLD/ba.svg',
       promoImg: '/images/domains/ccTLD/ba.svg'
   },
   {
     name: '.bb',
     entity: 'Barbados',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: '',
       link: ''
     },
@@ -34,19 +40,22 @@ const data = [
       `The fee for Barbados' main ccTLD and all of the second and third-level domains is BBD$120 annually.[2] This pricing is significantly higher than most other domains, which has discouraged its use.[citation needed] At present the .bb namespace does not allow for commercial licenses to entities without some connection to Barbados.`,
       `At present, any person desirous of registering a ".bb" domain is required to fill out Form TU052 and send it the Telecommunications Unit for review.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bb',
-      logo: '/images/domains/ccTLD/bb.svg',
+       logo: '/images/domains/ccTLD/bb.svg',
       promoImg: '/images/domains/ccTLD/bb.svg'
   },
   {
     name: '.bd',
     entity: 'Bangladesh',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Ministry of Posts, Telecommunications and Information Technology.',
       link: 'https://en.wikipedia.org/wiki/Ministry_of_Posts,_Telecommunications_and_Information_Technology'
     },
@@ -57,19 +66,22 @@ const data = [
       `.বাংলা ("Bangla") is a second country code top-level domain that was granted to Bangladesh in 2011.[5] This domain is meant for web addresses in the Bengali language. `,
       `Though .bd domain was introduced on 20 May 1999, the Bangladesh Telecommunications Company Limited (BTCL) started registering for generals in 2003.[1] Similarly, .বাংলা domain was introduced in 2011, the BTCL started the process of assigning domain names for websites on 1 January 2017.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bd',
-      logo: '/images/domains/ccTLD/bd.svg',
+       logo: '/images/domains/ccTLD/bd.svg',
       promoImg: '/images/domains/ccTLD/bd.svg'
   },
   {
     name: '.be',
     entity: 'Belgium',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'DNS Belgium',
       link: 'https://en.wikipedia.org/wiki/DNS_Belgium'
     },
@@ -80,62 +92,71 @@ const data = [
       `It was announced in November 2005 that the initial registration of domains would be free until the beginning of 2006, though with some limits on the number any individual was allowed to register.[3][4] This was remarkably popular, with some 17,000 registrations coming in on the first day of the promotion.`,
 
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.be',
-      logo: '/images/domains/ccTLD/be.svg',
+       logo: '/images/domains/ccTLD/be.svg',
       promoImg: '/images/domains/ccTLD/be.svg'
   },
   {
     name: '.bf',
     entity: 'Burkina Faso',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Delegational Generale Informatique (DELGI)',
       link: '/'
     },
     notes: [
       `It was introduced in 1993.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bf',
-      logo: '/images/domains/ccTLD/bf.svg',
+       logo: '/images/domains/ccTLD/bf.svg',
       promoImg: '/images/domains/ccTLD/bf.svg'
   },
   {
     name: '.bg',
     entity: 'Bulgaria',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Register.BG',
       link: '/'
     },
     notes: [
-      `See also .бг (.bg in Cyrillic) for IDN ccTLD.`,
+      `See also .бг (.bg in Cyrillic) for defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn ccTLD.`,
       `.bg domains can be registered by European Union citizens, companies or foreign companies that have registered branches or commercial representatives in Bulgaria. The price of domain registration is €30 per year (€36 including VAT).`,
       `Until mid-2006, the price was a one-time registration fee of US$50 plus US$50 per year (total of US$120 including VAT for the first year). For local standards this was a very high price, and many Bulgarian sites were registered under .com (esp -bg.com), .org, or .net domains, as the registration costs were significantly lower (US$8–12 per year) and less of a bureaucratic hassle.`,
       `From August 25, 2008, Register.BG simplified the procedures, allowing the registration of domain names in the .bg zone without providing documented grounds (trademarks, company names) for the name.[2] Eventual disputes are to be solved via the newly established Arbitration committee.`,
       `Since September 18, 2006, Register.bg proposes new, third-level domains in the a.bg, b.bg, etc., subdomains (a Latin letter or a digit +.bg), lower cost (€12/year incl. VAT), with less restrictions and no dispute resolution.[2] They are targeted mainly at private individuals.`,
       `On September 5, 2009, Register.bg started accepting second- and third-level domain names in Cyrillic with letters found in the Bulgarian language only.`
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bg',
-      logo: '/images/domains/ccTLD/bg.svg',
+       logo: '/images/domains/ccTLD/bg.svg',
       promoImg: '/images/domains/ccTLD/bg.svg'
   },
   {
     name: '.bh',
     entity: 'Bahrain',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Telecommunications Regulatory Authority of Bahrain (TRA).',
       link: 'https://en.wikipedia.org/wiki/Telecommunications_Regulatory_Authority_of_Bahrain'
     },
@@ -144,76 +165,88 @@ const data = [
       `In 2002, the Telecommunications Regulatory Authority was established, and in 2008, the Minister of Telecommunications of Bahrain assigned TRA as the governmental agency responsible for the management of the .bh top-level domain.`,
       `On 6 December 2011, the Telecommunication Regulatory Authority commenced a request to ccTLD for redelegation of the “.BH” top-level domain.[3] In March 2012, this request was completed.[4]`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bh',
-      logo: '/images/domains/ccTLD/bh.svg',
+       logo: '/images/domains/ccTLD/bh.svg',
       promoImg: '/images/domains/ccTLD/bh.svg'
   },
   {
     name: '.bi',
     entity: 'Burundi',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: '',
       link: ''
     },
     notes: [
       `The .bi domain was first delegated in October 1996. It was delegated to the entire country on July 16, 2002.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bi',
-      logo: '/images/domains/ccTLD/bi.svg',
+       logo: '/images/domains/ccTLD/bi.svg',
       promoImg: '/images/domains/ccTLD/bi.svg'
   },
   {
     name: '.bj',
     entity: 'Benin',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Office of Stations and Telecommunications of Benin',
       link: '/'
     },
     notes: [
       `Despite having no "j" in its name in any of its official languages, Benin was allocated .bj as the other possible codes .be, .bn, and .bi had already been allocated to other entities.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bj',
-      logo: '/images/domains/ccTLD/bj.svg',
+       logo: '/images/domains/ccTLD/bj.svg',
       promoImg: '/images/domains/ccTLD/bj.svg'
   },
   {
     name: '.bm',
     entity: 'Bermuda (United Kingdom)',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: '',
       link: ''
     },
     notes: [
       `It was originally delegated in March 1993 to Bermuda College and was redelegated to the Registrar General of Bermuda, the de facto manager of the .BM domain, in 2007.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bm',
-      logo: '/images/domains/ccTLD/bm.svg',
+       logo: '/images/domains/ccTLD/bm.svg',
       promoImg: '/images/domains/ccTLD/bm.svg'
   },
   {
     name: '.bn',
     entity: 'Brunei',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Authority for Info-communications Technology Industry (BNNIC)',
       link: 'https://en.wikipedia.org/wiki/Authority_for_Info-communications_Technology_Industry'
     },
@@ -221,19 +254,22 @@ const data = [
       `There are currently two registrars: Imagine and Datastream Digital.`,
 
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bn',
-      logo: '/images/domains/ccTLD/bn.svg',
+       logo: '/images/domains/ccTLD/bn.svg',
       promoImg: '/images/domains/ccTLD/bn.svg'
   },
   {
     name: '.bo',
     entity: 'Bolivia',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Agency for the Development of the Information Society (ADSIB)',
       link: 'https://en.wikipedia.org/wiki/Agency_for_the_Development_of_the_Information_Society'
     },
@@ -241,42 +277,48 @@ const data = [
       `As of February 2011, the NIC was offering a registration fee of about US$40 per year or 280 $Bs for third-level domain and US$140 per year or 980 $Bs for second level domain. Registration is at the second or third level.`,
       `Brazilian TV Globo has also used this domain for shortener with the glo.bo URL`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bo',
-      logo: '/images/domains/ccTLD/bo.svg',
+       logo: '/images/domains/ccTLD/bo.svg',
       promoImg: '/images/domains/ccTLD/bo.svg'
   },
   {
     name: '.bq',
     entity: 'Caribbean Netherlands ( Bonaire,  Saba, and  Sint Eustatius)',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: '',
       link: ''
     },
     notes: [
-      `Actual use - not available for use.`
+      `Actual use - not available for use.`,
       `This decision followed the dissolution of the Netherlands Antilles and new status of the Caribbean Netherlands as public bodies of the Netherlands on October 10, 2010.`,
       `On 15 December 2010 the ISO 3166-1 code for Bonaire, Sint Eustatius and Saba changed to reflect the BQ codified for the ccTLD.`,
       `Previously, the Caribbean Netherlands used the former Netherlands Antilles's ccTLD, .an, which has been phased out in July 2015. As part of the Netherlands proper, .nl also applies. Use of the top level domain is as of July 2015 being considered and an economic evaluation is being performed to that effect.`,
       `BQ was chosen as other possible codes had already been allocated. `,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bq',
-      logo: '/images/domains/ccTLD/bq.svg',
+       logo: '/images/domains/ccTLD/bq.svg',
       promoImg: '/images/domains/ccTLD/bq.svg'
   },
   {
     name: '.br',
     entity: 'Brazil',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Brazilian Internet Steering Committee',
       link: 'https://en.wikipedia.org/wiki/Brazilian_Internet_Steering_Committee'
     },
@@ -286,19 +328,22 @@ const data = [
       `With the exception of universities, the second-level domain is fixed and selected from a list that defines the category. For example, .art.br is in the art (music, folklore etc.) category, and .org.br is in the non-governmental organization category. Institutions of tertiary education were allowed to use the ccSLD .edu.br, although some use .com.br and others (mainly public universities) use .br.`,
       `There are also some other few exceptions that were allowed to use the second level domain until the end of 2000. As of April 2010, most domain registrations ignore categories and register in the .com.br domain, which has over 90% of all registered domains. The .jus.br (Judiciary), and .b.br (banks) domains have mandatory DNSSEC use.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.br',
-      logo: '/images/domains/ccTLD/br.svg',
+       logo: '/images/domains/ccTLD/br.svg',
       promoImg: '/images/domains/ccTLD/br.svg'
   },
   {
     name: '.bs',
     entity: 'Bahamas',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'The University of The Bahamas (UB)',
       link: 'https://en.wikipedia.org/wiki/University_of_the_Bahamas'
     },
@@ -306,38 +351,44 @@ const data = [
       `Actual use	- not very heavily used`,
       `Introduction Date - 3 September 1991.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bs',
-      logo: '/images/domains/ccTLD/bs.svg',
+       logo: '/images/domains/ccTLD/bs.svg',
       promoImg: '/images/domains/ccTLD/bs.svg'
   },
   {
     name: '.bt',
     entity: 'Bhutan',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Ministry of Information and Communication (Bhutan)',
       link: 'https://en.wikipedia.org/wiki/Ministry_of_Information_and_Communication_(Bhutan)'
     },
     notes: [
       `Must have local presence in Bhutan, and valid trade license.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bt',
-      logo: '/images/domains/ccTLD/bt.svg',
+       logo: '/images/domains/ccTLD/bt.svg',
       promoImg: '/images/domains/ccTLD/bt.svg'
   },
   {
     name: '.bw',
     entity: 'Botswana',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Botswana Communication Regulatory Authority (BOCRA)',
       link: 'https://en.wikipedia.org/wiki/Botswana_Communications_Regulatory_Authority'
     },
@@ -346,19 +397,22 @@ const data = [
       `The most visited .bw domain is google.co.bw by Google Inc. in Botswana.`,
 
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bw',
-      logo: '/images/domains/ccTLD/bw.svg',
+       logo: '/images/domains/ccTLD/bw.svg',
       promoImg: '/images/domains/ccTLD/bw.svg'
   },
   {
     name: '.by',
     entity: 'Belarus',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Operations and Analysis Centre under the President of the Republic of Belarus',
       link: ''
     },
@@ -370,19 +424,22 @@ const data = [
       `The names chosen for second-level domains must not conflict with those already registered or with well-known brand names. The names also must have two or more Latin characters and they cannot either start or finish with a hyphen (-).`,
 
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.by',
-      logo: '/images/domains/ccTLD/by.svg',
+       logo: '/images/domains/ccTLD/by.svg',
       promoImg: '/images/domains/ccTLD/by.svg'
   },
   {
     name: '.bz',
     entity: 'Belize',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'University of Belize',
       link: 'https://en.wikipedia.org/wiki/University_of_Belize'
     },
@@ -392,13 +449,13 @@ const data = [
       `Currently, the registry is in Belize, but is still marketing the domain outside the country as "meaning business". Internationalized domains with a wide assortment of non-ASCII characters are also available.`,
       `Many websites in Italy use this domain, because of the abbreviation of Bolzano, the capital of the province of South Tyrol, and the fact that the official abbreviation of the province is BZ. Many websites use the Italian subdomain .bz.it. Servers for the open source game BZFlag often use names ending in .bz`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.bz',
-      logo: '/images/domains/ccTLD/bz.svg',
+       logo: '/images/domains/ccTLD/bz.svg',
       promoImg: '/images/domains/ccTLD/bz.svg'
   },
 ]

@@ -2,7 +2,10 @@ const data = [
   {
     name: '.ca',
     entity: 'Canada',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Canadian Internet Registration Authority (CIRA)',
       link: 'https://en.wikipedia.org/wiki/Canadian_Internet_Registration_Authority'
     },
@@ -13,19 +16,22 @@ const data = [
       `The Canadian Internet Registration Authority (CIRA) is a non-profit Canadian corporation that is responsible for operating the .ca Internet country code Top Level Domain (ccTLD) today. It assumed operation of the .ca ccTLD on December 1, 2000, from UBC. On April 15, 2008, CIRA registered its one millionth .ca Internet domain name.`,
       `Any .ca registration has to be ordered via a certified registrar.`
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.ca',
-      logo: '/images/domains/ccTLD/ca.svg',
+       logo: '/images/domains/ccTLD/ca.svg',
       promoImg: '/images/domains/ccTLD/ca.svg'
   },
   {
     name: '.cc',
     entity: 'Cocos (Keeling) Islands',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Verisign Inc.',
       link: 'https://en.wikipedia.org/wiki/Verisign'
     },
@@ -37,19 +43,22 @@ const data = [
       `The TLD is preferred by many cricket and cycling clubs, as well as churches and Christian organizations, since "CC" can be an abbreviation for "Christian Church" or "Catholic Church". Some open-source/open-hardware projects, such as the Arduino project, use a .cc for their home pages, since "CC" is also the abbreviation for "Creative Commons", whose licenses are used in the projects.`,
       `Business owners in Southern Massachusetts are rapidly adopting Cape Cod CC domains for local identity. Canadian Club whiskey has also used .cc domains for marketing purposes.[citation needed] It is also used for some community colleges, though other domains, such as .edu, are more popular. `,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cc',
-      logo: '/images/domains/ccTLD/cc.svg',
+       logo: '/images/domains/ccTLD/cc.svg',
       promoImg: '/images/domains/ccTLD/cc.svg'
   },
   {
     name: '.cd',
     entity: ' Democratic Republic of the Congo',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Société Congolaise des Postes et Télécommunications (SCPT).',
       link: ''
     },
@@ -60,19 +69,22 @@ const data = [
       `.zr is the former Internet country code top-level domain (ccTLD) for Zaire. When Zaire was renamed the Democratic Republic of the Congo in 1997, .zr was phased out and .cd took its place. In 2001, .zr was deleted`,
 
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cd',
-      logo: '/images/domains/ccTLD/cd.svg',
+       logo: '/images/domains/ccTLD/cd.svg',
       promoImg: '/images/domains/ccTLD/cd.svg'
   },
   {
     name: '.cf',
     entity: 'Central African Republic',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Socatel',
       link: 'https://en.wikipedia.org/wiki/Socatel'
     },
@@ -83,38 +95,44 @@ const data = [
       `The .cf registry allows the creation of emoji domain names.`,
       `Following Freenom's lawsuit with Meta and its settlement in 2024,[1] it is unclear who will take up registration of the domain, as Freenom announced it would be exiting the domain business. `,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cf',
-      logo: '/images/domains/ccTLD/cf.svg',
+       logo: '/images/domains/ccTLD/cf.svg',
       promoImg: '/images/domains/ccTLD/cf.svg'
   },
   {
     name: '.cg',
     entity: 'Republic of the Congo',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'ONPT Congo and Interpoint Switzerland.',
       link: '/'
     },
     notes: [
       `Citizens of the Republic of the Congo are entitled to one free domain registration, directly at the second level of .cg. Additional registrations, and registrations by foreigners, have a cost of €225/year as of 2016.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cg',
-      logo: '/images/domains/ccTLD/cg.svg',
+       logo: '/images/domains/ccTLD/cg.svg',
       promoImg: '/images/domains/ccTLD/cg.svg'
   },
   {
     name: '.ch',
     entity: 'Switzerland',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'SWITCH Information Technology Services',
       link: 'https://en.wikipedia.org/wiki/SWITCH_Information_Technology_Services'
     },
@@ -127,19 +145,22 @@ const data = [
       `Second-level domain names must be at least three letters long. Two-letter subdomain names are restricted to the Swiss cantons, as well as the domain ch.ch of the Federal Chancellery of Switzerland. The only exception has been the former domain of the Expo.02 which was held in Switzerland, www.expo.02.ch.`,
       `Registrations of internationalized domain names have been accepted since March 2004.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.ch',
-      logo: '/images/domains/ccTLD/ch.svg',
+       logo: '/images/domains/ccTLD/ch.svg',
       promoImg: '/images/domains/ccTLD/ch.svg'
   },
   {
     name: '.ci',
     entity: 'Ivory Coast',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: `Network Information Center - Côte d'Ivoire`,
       link: '/'
     },
@@ -147,19 +168,22 @@ const data = [
       `In most situations, specific registrations are done using a second level domain name. Côte d'Ivoire also makes use of a special convention with an introductory name such as chu- instead of the second level domain name.`,
 
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.ci',
-      logo: '/images/domains/ccTLD/ci.svg',
+       logo: '/images/domains/ccTLD/ci.svg',
       promoImg: '/images/domains/ccTLD/ci.svg'
   },
   {
     name: '.ck',
     entity: 'Cook Islands',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: `Oyster Internet Services.`,
       link: '/'
     },
@@ -168,19 +192,22 @@ const data = [
       `Applications for a domain if it is already taken or is not affiliated with brand or name identity to you or your company e.g. 'nike.co.ck', 'mobil.co.ck', etc.`,
       `Domains considered profane will not be considered on any level, and the application will be dissolved with the applicant being notified, and future requests for the same domain name will be ignored. '.ck' domains are monitored on the web, on a regular basis for profanity on the Internet if it is found to be doing so, or if the site is deemed inappropriate, the domain will be terminated without notification or refund.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.ck',
-      logo: '/images/domains/ccTLD/ck.svg',
+       logo: '/images/domains/ccTLD/ck.svg',
       promoImg: '/images/domains/ccTLD/ck.svg'
   },
   {
     name: '.cl',
     entity: 'Chile',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'University of Chile',
       link: 'https://en.wikipedia.org/wiki/University_of_Chile'
     },
@@ -188,19 +215,22 @@ const data = [
       `Registration of second-level domains under this TLD is open to anyone, as established by the current regulation for the operation of the Domain Name Registration .CL since December 2013,[4] which eliminated the requirement for foreign registrants to have a local contact with a RUN, the Chilean national identification number.`,
       `Registration of names including accented letters (á, é, í, ó, ú), ñ and ü was opened up in 2005.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cl',
-      logo: '/images/domains/ccTLD/cl.svg',
+       logo: '/images/domains/ccTLD/cl.svg',
       promoImg: '/images/domains/ccTLD/cl.svg'
   },
   {
     name: '.cm',
     entity: 'Cameroon',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: `Agence Nationale des Technologies de l'Information et de la Communication`,
       link: '/'
     },
@@ -211,19 +241,22 @@ const data = [
       `In a report published in December 2009 by McAfee, "Mapping the Mal Web - The world's riskiest domain", .cm was reportedly the riskiest domain in the world, with 36.7% of the sites posing a security risk to PCs.[6] It is widely assumed that malicious domain programmers rely on inadvertent misspellings of well-trafficked websites ending in ".com" to lure unsuspecting users to their domains.`,
       `The .cm top-level domain is also used for domain name hacks by legitimate organizations, such as the CyanogenMod project, which used get.cm as an easily remembered URL shortener for distributing versions of its software, and The Hill, which uses hill.cm as a URL shortener when linking to its articles on social media.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cm',
-      logo: '/images/domains/ccTLD/cm.svg',
+       logo: '/images/domains/ccTLD/cm.svg',
       promoImg: '/images/domains/ccTLD/cm.svg'
   },
   {
     name: '.cn',
     entity: `People's Republic of China`,
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'China Internet Network Information Center (CNNIC)',
       link: 'https://en.wikipedia.org/wiki/.cn'
     },
@@ -233,19 +266,22 @@ const data = [
       `A local company in China is required to register a domain name, or for personal registrations a valid Resident Identity Card. See ICP license for more information regarding registrations. Hong Kong and Macau also maintain TLDs.`,
       `The Chinese script internationalized country codes are ".中国" ("China" in Simplified Chinese) and ".中國" ("China" in Traditional Chinese). Entities connected to Hong Kong, Macau, and Taiwan typically use .hk, .mo, and .tw, respectively,[5] despite the availability of corresponding second-level domains under .cn for those regions.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cn',
-      logo: '/images/domains/ccTLD/cn.svg',
+       logo: '/images/domains/ccTLD/cn.svg',
       promoImg: '/images/domains/ccTLD/cn.svg'
   },
   {
     name: '.co',
     entity: 'Colombia',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Internet S.A.S',
       link: ''
     },
@@ -257,38 +293,44 @@ const data = [
       `n 2001, the university began to consider the possibility of marketing the domain as an alternative to the generic top-level domains. The government of Colombia objected on the basis that the university, a private entity, did not have regulatory oversight of the TLD and the Minister of Communications, Angela Montoya Holguín, wrote to them requesting that they not continue. In turn the university wrote to ccTLD, rejecting the government's objections and stating their intention to appoint a subcontractor to handle the commercialization of the domain.`,
       `At that moment only accredited registrars are able to sell .co domain names directly; other registrars selling .co domain names are acting as resellers. The list of accredited registrars is available on the .CO Internet website,[17] and as of October 2011 there are 20 accredited registrars. Some of the 20 registrars operate under multiple brands.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.co',
-      logo: '/images/domains/ccTLD/co.svg',
+       logo: '/images/domains/ccTLD/co.svg',
       promoImg: '/images/domains/ccTLD/co.svg'
   },
   {
     name: '.cr',
     entity: 'Costa Rica',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'NIC-Internet Costa Rica',
       link: 'https://nic.cr/'
     },
     notes: [
       `Domains can be bought directly at the registry or through accredited registrars. `,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cr',
-      logo: '/images/domains/ccTLD/cr.svg',
+       logo: '/images/domains/ccTLD/cr.svg',
       promoImg: '/images/domains/ccTLD/cr.svg'
   },
   {
     name: '.cu',
     entity: 'Cuba',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Cuba-NIC',
       link: '/'
     },
@@ -296,19 +338,22 @@ const data = [
       `Cuban and foreign legal entities, as well as natural persons residing in the country, may request the granting of a domain name. `,
 
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cu',
-      logo: '/images/domains/ccTLD/cu.svg',
+       logo: '/images/domains/ccTLD/cu.svg',
       promoImg: '/images/domains/ccTLD/cu.svg'
   },
   {
     name: '.cv',
     entity: 'Cape Verde',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Agência Nacional das Comunicações',
       link: ''
     },
@@ -318,19 +363,22 @@ const data = [
       `The technical manager, originally the Foundation for the National Scientific Information of Portugal (Fundação para a Computação Científica Nacional, FCCN), a non-profit organisation who managed the .pt domain name, transferred the rights and obligations managing the top level domains to DNS.PT in 2014. The transfer of management rights by the IANA was published for .cv in June of that year.`,
       `ANAC is part of the group LusNIC,[4] an entity which includes top-level domains of other countries including .br (Brazil), .gw (Guinea-Bissau), .pt (Portugal), .st (São Tomé and Príncipe) and .ao (Angola). This is why the .cv domain shares a part of the .pt network infrastructure (notably for a part of its DNS servers), and its technical management is delegated to the DNS.PT association. `,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cv',
-      logo: '/images/domains/ccTLD/cv.svg',
+       logo: '/images/domains/ccTLD/cv.svg',
       promoImg: '/images/domains/ccTLD/cv.svg'
   },
   {
     name: '.cw',
     entity: 'Curaçao (Kingdom of the Netherlands)',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'CW Registry Curacao (CW DomReg)',
       link: '/'
     },
@@ -340,19 +388,22 @@ const data = [
       `Previously, many websites in Curaçao used the former Netherlands Antilles's ccTLD, .an. Domains from .an were able to switch to .sx (Sint Maarten) or .cw, depending on where they are based.`,
 
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cw',
-      logo: '/images/domains/ccTLD/cw.svg',
+       logo: '/images/domains/ccTLD/cw.svg',
       promoImg: '/images/domains/ccTLD/cw.svg'
   },
   {
     name: '.cx',
     entity: 'Christmas Island',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'Christmas Island Internet Administration',
       link: 'https://en.wikipedia.org/wiki/Internet_in_Christmas_Island'
     },
@@ -362,38 +413,44 @@ const data = [
       `The top-level domain was formerly administered by Planet Three Limited, a company with offices in the United Kingdom and Australia, which went bankrupt and ceased operations, voluntarily transferring management to the Christmas Island Internet Administration (called Dot CX Limited at the time).[citation needed] The local (shire) government of Christmas Island endorsed the transfer, but the Commonwealth of Australia (which has international authority over Christmas Island as an external territory) did not immediately approve it. Australia has since published a memorandum of understanding which recognises the Christmas Island Internet Administration as the legitimate manager of .cx.`,
       `The domain achieved a certain degree of notoriety when it was used for the shock site goatse.cx, to the point the Christmas Island Internet Administration was forced to take down the website following complaints by Christmas Islanders.`,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cx',
-      logo: '/images/domains/ccTLD/cx.svg',
+       logo: '/images/domains/ccTLD/cx.svg',
       promoImg: '/images/domains/ccTLD/cx.svg'
   },
   {
     name: '.cy',
     entity: 'Cyprus',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'University of Cyprus',
       link: 'https://en.wikipedia.org/wiki/University_of_Cyprus'
     },
     notes: [
       `Some restrictions exist for various subdomains, but .com.cy is unrestricted to Cypriot entities. `,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cy',
-      logo: '/images/domains/ccTLD/cy.svg',
+       logo: '/images/domains/ccTLD/cy.svg',
       promoImg: '/images/domains/ccTLD/cy.svg'
   },
   {
     name: '.cz',
     entity: 'Czech Republic',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: 'CZ.NIC',
       link: 'https://en.wikipedia.org/wiki/CZ.NIC'
     },
@@ -405,13 +462,13 @@ const data = [
       `Over 850,000 internet sites had been registered as .cz by the end of 2011.[6] In 2012, the number exceeded one million.[4] The Czech Republic was therefore the 12th European Union member state with a top-level domain to top a million active domain names.`,
       `At the end of 2011, CZ.NIC reported that ownership of all domains, 58% were by individuals, whereas those held by organisations accounted for a minority of 42%.[6] Domains were most popular in Prague, followed by Brno and Ostrava.[`
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: 'https://en.wikipedia.org/wiki/.cz',
-      logo: '/images/domains/ccTLD/cz.svg',
+       logo: '/images/domains/ccTLD/cz.svg',
       promoImg: '/images/domains/ccTLD/cz.svg'
   },
 

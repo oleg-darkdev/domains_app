@@ -22,8 +22,8 @@ const data = [
       ipv6: 0,
       id: 0,
       wikipedia: '',
-       logo: '/images/domains/template/.svg',
-      promoImg: '/images/domains/template/.svg'
+       logo: '/images/domains/template/',
+      promoImg: '/images/domains/template/'
   },
 ]
 

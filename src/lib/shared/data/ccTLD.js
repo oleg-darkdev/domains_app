@@ -27,128 +27,157 @@ import dataZ from './ccTLD/dataZ'
 
 
 const data = {
+  abbr: 'ccTLD.',
+
   title: 'Country code top-level domains (ccTLD).',
   domains: {
-    all: [].concat(dataA, dataB, dataC, dataD, dataE, dataF, dataG, dataH, dataI, dataJ, dataK, dataL, dataM, dataN, dataO, dataP, dataQ, dataR, dataS, dataT, dataU, dataV, dataW,  dataY, dataZ, dataX),
+    all: [].concat(
+      dataA,
+      dataB,
+      dataC,
+      dataD,
+      dataE,
+      dataF,
+      dataG,
+      dataH,
+      dataI,
+      dataJ,
+      dataK,
+      dataL,
+      dataM,
+      dataN,
+      dataO,
+      dataP,
+      dataQ,
+      dataR,
+      dataS,
+      dataT,
+      dataU,
+      dataV,
+      dataW,
+      dataY,
+      dataZ,
+      dataX,
+    ),
     alphabet: {
       a: {
         title: 'A',
-        data: dataA
+        data: dataA,
       },
       b: {
         title: 'B',
-        data: dataB
+        data: dataB,
       },
       c: {
         title: 'C',
-        data: dataC
+        data: dataC,
       },
       d: {
         title: 'D',
-        data: dataD
+        data: dataD,
       },
       e: {
         title: 'E',
-        data: dataE
+        data: dataE,
       },
       f: {
         title: 'F',
-        data: dataF
+        data: dataF,
       },
       g: {
         title: 'G',
-        data: dataG
+        data: dataG,
       },
       h: {
         title: 'H',
-        data: dataH
+        data: dataH,
       },
       i: {
         title: 'I',
-        data: dataI
+        data: dataI,
       },
       j: {
         title: 'J',
-        data: dataJ
+        data: dataJ,
       },
       k: {
         title: 'K',
-        data: dataK
+        data: dataK,
       },
       l: {
         title: 'L',
-        data: dataL
+        data: dataL,
       },
       m: {
         title: 'M',
-        data: dataM
+        data: dataM,
       },
       n: {
         title: 'N',
-        data: dataN
+        data: dataN,
       },
       o: {
         title: 'O',
-        data: dataO
+        data: dataO,
       },
       p: {
         title: 'P',
-        data: dataP
+        data: dataP,
       },
       q: {
         title: 'Q',
-        data: dataQ
+        data: dataQ,
       },
       r: {
         title: 'R',
-        data: dataR
+        data: dataR,
       },
       s: {
         title: 'S',
-        data: dataS
+        data: dataS,
       },
       t: {
         title: 'T',
-        data: dataT
+        data: dataT,
       },
       u: {
         title: 'U',
-        data: dataU
+        data: dataU,
       },
       v: {
         title: 'V',
-        data: dataV
+        data: dataV,
       },
       w: {
         title: 'W',
-        data: dataW
+        data: dataW,
       },
       x: {
         title: 'X',
-        data: dataX
+        data: dataX,
       },
       y: {
         title: 'Y',
-        data: dataY
+        data: dataY,
       },
       z: {
         title: 'Z',
-        data: dataZ
+        data: dataZ,
       },
     },
   },
   promoImg: '',
   id: 0,
   wikipedia: 'https://en.wikipedia.org/wiki/Country_code_top-level_domain',
-  shortDesc: 'A country code top-level domain (ccTLD) is an Internet top-level domain generally used or reserved for a country, sovereign state, or dependent territory identified with a country code.',
-  desc:
-    [
-      `All ASCII ccTLD identifiers are two letters long, and all two-letter top-level domains are ccTLDs. `,
-      `In 2018, the Internet Assigned Numbers Authority (IANA) began implementing internationalized country code top-level domains, consisting of language-native characters when displayed in an end-user application. Creation and delegation of ccTLDs is described in RFC 1591, corresponding to ISO 3166-1 alpha-2 country codes.`,
-      `While gTLDs have to obey international regulations, ccTLDs are subjected to requirements that are determined by each country's domain name regulation corporation. With over 150 million domain name registrations as of 2022, ccTLDs make up about 40% of the total domain name industry.`,
-      `Country code extension applications began in 1985. The registered country code extensions in that year included .us (United States), .uk (United Kingdom) and .il (Israel). The registered country code extensions in 1986 included .au (Australia), .de (Germany), .fi (Finland), .fr (France), .is (Iceland), .jp (Japan), .kr (South Korea), .nl (Netherlands) and .se (Sweden). The registered country code extensions in 1987 included .nz (New Zealand), .ch (Switzerland) and .ca (Canada).[2] The registered country code extensions in 1988 included .ie (Ireland) .it (Italy), .es (Spain) and .pt (Portugal). The registered country code extensions in 1989 included .in (India) and .yu (Yugoslavia). In the 1990s, .cn (People's Republic of China) and .ru (Russian Federation) were first registered.`,
-      `The .cn, .tk, .de, .uk, .nl and .ru ccTLDs contain the highest number of domains. The top ten ccTLDs account for more than five-eighths of registered ccTLD domains. There were about 153 million ccTLD domains registered at the end of March 2022`
-    ]
+  shortDesc:
+    'A country code top-level domain (ccTLD) is an Internet top-level domain generally used or reserved for a country, sovereign state, or dependent territory identified with a country code.',
+  desc: [
+    `All ASCII ccTLD identifiers are two letters long, and all two-letter top-level domains are ccTLDs. `,
+    `In 2018, the Internet Assigned Numbers Authority (IANA) began implementing internationalized country code top-level domains, consisting of language-native characters when displayed in an end-user application. Creation and delegation of ccTLDs is described in RFC 1591, corresponding to ISO 3166-1 alpha-2 country codes.`,
+    `While gTLDs have to obey international regulations, ccTLDs are subjected to requirements that are determined by each country's domain name regulation corporation. With over 150 million domain name registrations as of 2022, ccTLDs make up about 40% of the total domain name industry.`,
+    `Country code extension applications began in 1985. The registered country code extensions in that year included .us (United States), .uk (United Kingdom) and .il (Israel). The registered country code extensions in 1986 included .au (Australia), .de (Germany), .fi (Finland), .fr (France), .is (Iceland), .jp (Japan), .kr (South Korea), .nl (Netherlands) and .se (Sweden). The registered country code extensions in 1987 included .nz (New Zealand), .ch (Switzerland) and .ca (Canada).[2] The registered country code extensions in 1988 included .ie (Ireland) .it (Italy), .es (Spain) and .pt (Portugal). The registered country code extensions in 1989 included .in (India) and .yu (Yugoslavia). In the 1990s, .cn (People's Republic of China) and .ru (Russian Federation) were first registered.`,
+    `The .cn, .tk, .de, .uk, .nl and .ru ccTLDs contain the highest number of domains. The top ten ccTLDs account for more than five-eighths of registered ccTLD domains. There were about 153 million ccTLD domains registered at the end of March 2022`,
+  ],
 }
 
 

@@ -1,581 +1,131 @@
 const data = [
   {
-    name: '',
-    entity: '',
-    administrator: {
+    name: '.kim',
+    entity: 'Kim.',
+    sponsor: {
       title: '',
-      link: ''
+      link: '',
     },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
+    administrator: {
+      title: 'Identity Digital.',
+      link: 'https://en.wikipedia.org/wiki/Identity_Digital',
+    },
+    notes: [`Kim (Korean surname).`],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: '',
+    logo: '/images/domains/icann/kim.svg',
+    promoImg: '/images/domains/icann/kim.svg',
   },
   {
     name: '',
     entity: '',
-    administrator: {
+    sponsor: {
       title: '',
-      link: ''
+      link: '',
     },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
+    administrator: {
+      title: 'Identity Digital.',
+      link: 'https://en.wikipedia.org/wiki/Identity_Digital',
+    },
+    notes: [``],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: '',
+    logo: '/images/domains/icann/.svg',
+    promoImg: '/images/domains/icann/.svg',
   },
   {
-    name: '',
-    entity: '',
-    administrator: {
+    name: '.kitchen',
+    entity: 'Kitchen.',
+    sponsor: {
       title: '',
-      link: ''
+      link: '',
+    },
+    administrator: {
+      title: 'Identity Digital.',
+      link: 'https://en.wikipedia.org/wiki/Identity_Digital',
     },
     notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
+      `Restaurants, cafes, & delis, food stands & mobile vendors, meal services & personal chefs, kitchen supply stores, food blogs & recipe sites.`,
     ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: '',
+    logo: '/images/domains/icann/kitchen.svg',
+    promoImg: '/images/domains/icann/kitchen.svg',
   },
   {
-    name: '',
-    entity: '',
-    administrator: {
+    name: '.kosher',
+    entity: 'Kosher.',
+    sponsor: {
       title: '',
-      link: ''
+      link: '',
     },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
+    administrator: {
+      title: 'OK Kosher Certification.',
+      link: 'https://en.wikipedia.org/wiki/OK_Kosher_Certification',
+    },
+    notes: [`Kosher food certification and regulations.`],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: 'https://en.wikipedia.org/wiki/.kosher',
+    logo: '/images/domains/icann/kosher.svg',
+    promoImg: '/images/domains/icann/kosher.svg',
   },
   {
-    name: '',
-    entity: '',
-    administrator: {
+    name: '.kpn',
+    entity: 'KPN.',
+    sponsor: {
       title: '',
-      link: ''
+      link: '',
     },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
     administrator: {
-      title: '',
-      link: ''
+      title: 'KPN',
+      link: '',
     },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
+    notes: [`Dutch Telecom Company.`, `Only available to KPN.`],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: '',
+    logo: '/images/domains/icann/kpn.svg',
+    promoImg: '/images/domains/icann/kpn.svg',
   },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-
 ]
 
-
-export default data;
+export default data

@@ -1,581 +1,80 @@
 const data = [
   {
-    name: '',
-    entity: '',
-    administrator: {
+    name: '.jewelry',
+    entity: 'Jewelry.',
+    sponsor: {
       title: '',
-      link: ''
+      link: '',
     },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
+    administrator: {
+      title: 'Identity Digital.',
+      link: 'https://en.wikipedia.org/wiki/Identity_Digital',
+    },
+    notes: [`Jewelers, jewelry buyers, online retailers, department stores.`],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: '',
+    logo: '/images/domains/icann/jewelry.svg',
+    promoImg: '/images/domains/icann/jewelry.svg',
   },
   {
-    name: '',
-    entity: '',
-    administrator: {
+    name: '.jobs',
+    entity: 'Employment.',
+    sponsor: {
       title: '',
-      link: ''
+      link: '',
     },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
+    administrator: {
+      title: 'Employ Media',
+      link: '',
+    },
+    notes: [`For websites with job opportunities and job listings.`],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: 'https://en.wikipedia.org/wiki/.jobs',
+    logo: '/images/domains/icann/jobs.svg',
+    promoImg: '/images/domains/icann/jobs.svg',
   },
   {
-    name: '',
-    entity: '',
-    administrator: {
+    name: '.joy',
+    entity: 'Joy.',
+    sponsor: {
       title: '',
-      link: ''
+      link: '',
     },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
     administrator: {
-      title: '',
-      link: ''
+      title: 'Amazon Registry Services, Inc.',
+      link: 'https://en.wikipedia.org/wiki/Amazon.com',
     },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
+    notes: [``],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: '',
+    logo: '/images/domains/icann/joy.svg',
+    promoImg: '/images/domains/icann/joy.svg',
   },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-  {
-    name: '',
-    entity: '',
-    administrator: {
-      title: '',
-      link: ''
-    },
-    notes: [
-      ``,
-      ``,
-      ``,
-      ``,
-      ``,
-    ],
-      idn: 0,
-      dnssec: 0,
-      sld: 0,
-      ipv6: 0,
-      id: 0,
-      wikipedia: '',
-      logo: '/images/domains/icann/.svg',
-      promoImg: '/images/domains/icann/.svg'
-  },
-
+  
 ]
 
-
-export default data;
+export default data

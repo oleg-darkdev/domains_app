@@ -2,7 +2,10 @@ const data = [
   {
     name: '',
     entity: '',
-    administrator: {
+     sponsor: {
+      title: '',
+      link: ''
+    }, administrator: {
       title: '',
       link: ''
     },
@@ -13,13 +16,13 @@ const data = [
       ``,
       ``,
     ],
-      idn: 0,
+      defaultPrice: 0, introduced: '', stats: '', multiplier: 1, idn: 0,
       dnssec: 0,
       sld: 0,
       ipv6: 0,
       id: 0,
       wikipedia: '',
-      logo: '/images/domains/template/.svg',
+       logo: '/images/domains/template/.svg',
       promoImg: '/images/domains/template/.svg'
   },
 ]

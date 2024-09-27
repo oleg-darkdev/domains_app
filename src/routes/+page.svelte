@@ -1,6 +1,6 @@
 <script>
-  //
-	import { ccTLD, arpa, geoTLD, bTLD, grTLD, gTLD, icann, sTLD, tTLD } from '$lib/shared';
+  //  ccTLD, arpa, geoTLD, bTLD, grTLD, gTLD, icann, sTLD, tTLD
+	// import { } from '$lib/shared';
 	// import {  } from '$lib/widgets';
   // import {  } from '$lib/entities'
 
@@ -8,15 +8,14 @@
   // console.log([].concat(ccTLD.domains.all,geoTLD.domains.all,arpa.domains.all,bTLD.domains.all,grTLD.domains.all,gTLD.domains.all,sTLD.domains.all, icann.domains.all, tTLD.domains.all).length)
   // console.log(bTLD.domains.all.length)
   // console.log(geoTLD.domains.all.length)
-  // console.log(icann.domains.alphabet)
 
 
 function getNamesArray(objectsArray) {
   return objectsArray.map(obj => obj.name);
 }
 // .toString()
-// console.log(getNamesArray(icann.domains.alphabet.b.data))
-// console.log(ccTLD.domains.alphabet.c.data.length)
+// console.log(getNamesArray(icann.domains.zone.b.data))
+// console.log(ccTLD.domains.zone.c.data.length)
 </script>
 
 
@@ -24,15 +23,15 @@ function getNamesArray(objectsArray) {
   <title>Title</title>
 </svelte:head>
 
-<div class="flex flex-col">
-    {#each geoTLD.domains.alphabet.southAmerica.data as {logo, name, promoImg}}
+<!-- <div class="flex flex-col">
+    {#each geoTLD.domains.zone.southAmerica.data as {logo, name, promoImg}}
 
   <h2>{name}</h2>
 
 {/each}
 </div>
 <div class="grid grid-cols-2 max-w-2xl mx-auto">
-  {#each geoTLD.domains.alphabet.southAmerica.data as {logo, name, promoImg}}
+  {#each geoTLD.domains.zone.southAmerica.data as {logo, name, promoImg}}
   <div class="">
   <img src="{logo}" alt="{name}" class='w-40 h-40'>
   <h2>{name}</h2>
@@ -41,4 +40,4 @@ function getNamesArray(objectsArray) {
 </div>
 <style>
 
-</style>
+</style> -->

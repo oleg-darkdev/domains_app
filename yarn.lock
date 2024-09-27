@@ -3553,6 +3553,13 @@ sourcemap-codec@^1.4.8:
   resolved "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
+sswr@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/sswr/-/sswr-2.1.0.tgz"
+  integrity sha512-Cqc355SYlTAaUt8iDPaC/4DPPXK925PePLMxyBKuWd5kKc5mwsG3nT9+Mq2tyguL5s7b4Jg+IRMpTRsNTAfpSQ==
+  dependencies:
+    swrev "^4.0.0"
+
 stack-utils@^2.0.3:
   version "2.0.6"
   resolved "https://registry.npmjs.org/stack-utils/-/stack-utils-2.0.6.tgz"
@@ -3713,7 +3720,7 @@ svelte-preprocess@^5.0.3, svelte-preprocess@^5.0.4:
     sorcery "^0.11.0"
     strip-indent "^3.0.0"
 
-svelte@^3.0.0, "svelte@^3.19.0 || ^4.0.0-next.0", svelte@^3.2.0, "svelte@^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0", "svelte@^3.23.0 || ^4.0.0-next.0 || ^4.0.0", "svelte@^3.37.0 || ^4.0.0 || ^5.0.0-next.94", "svelte@^3.37.0 || ^4.0.0 || ^5.0.0-next.95", "svelte@^3.54.0 || ^4.0.0", "svelte@^3.54.0 || ^4.0.0-next.0", "svelte@^3.55.0 || ^4.0.0-next.0 || ^4.0.0", svelte@^3.55.1, "svelte@>=3 <5", svelte@3.x:
+svelte@^3.0.0, "svelte@^3.19.0 || ^4.0.0-next.0", svelte@^3.2.0, "svelte@^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0", "svelte@^3.23.0 || ^4.0.0-next.0 || ^4.0.0", "svelte@^3.37.0 || ^4.0.0 || ^5.0.0-next.94", "svelte@^3.37.0 || ^4.0.0 || ^5.0.0-next.95", "svelte@^3.54.0 || ^4.0.0", "svelte@^3.54.0 || ^4.0.0-next.0", "svelte@^3.55.0 || ^4.0.0-next.0 || ^4.0.0", svelte@^3.55.1, "svelte@^4.0.0 || ^5.0.0-next.0", "svelte@>=3 <5", svelte@3.x:
   version "3.59.2"
   resolved "https://registry.npmjs.org/svelte/-/svelte-3.59.2.tgz"
   integrity sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==
@@ -3730,6 +3737,11 @@ svgo@^3.0.2:
     css-what "^6.1.0"
     csso "^5.0.5"
     picocolors "^1.0.0"
+
+swrev@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/swrev/-/swrev-4.0.0.tgz"
+  integrity sha512-LqVcOHSB4cPGgitD1riJ1Hh4vdmITOp+BkmfmXRh4hSF/t7EnS4iD+SOTmq7w5pPm/SiPeto4ADbKS6dHUDWFA==
 
 symbol-tree@^3.2.4:
   version "3.2.4"

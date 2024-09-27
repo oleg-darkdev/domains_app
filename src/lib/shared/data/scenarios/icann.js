@@ -116,7 +116,8 @@ const data = {
   },
   shortDesc: '',
   promoImg: '',
-  id: 0,
+  icon: '',
+  id: 7,
   wikipedia: '',
   desc: [``, ``, ``],
 }

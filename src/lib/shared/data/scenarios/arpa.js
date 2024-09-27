@@ -12,7 +12,8 @@ const data = {
     zone: {},
   },
   promoImg: '',
-  id: 0,
+  icon: '',
+  id: 1,
   wikipedia: 'https://en.wikipedia.org/wiki/.arpa',
   desc: [
     `It is used predominantly for the management of technical network infrastructure. Prominent among such functions are the subdomains in-addr.arpa and ip6.arpa, which provide namespaces for reverse DNS lookup of IPv4 and IPv6 addresses, respectively.`,

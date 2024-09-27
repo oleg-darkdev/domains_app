@@ -48,7 +48,8 @@ const data = {
     },
   },
   promoImg: '',
-  id: 0,
+  icon: '',
+  id: 4,
   wikipedia: 'https://en.wikipedia.org/wiki/Geographic_top-level_domain',
   desc: [``],
 }

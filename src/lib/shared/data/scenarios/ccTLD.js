@@ -115,7 +115,8 @@ const data = {
     },
   },
   promoImg: '',
-  id: 0,
+  icon: '',
+  id: 3,
   wikipedia: 'https://en.wikipedia.org/wiki/Country_code_top-level_domain',
   shortDesc:
     'A country code top-level domain (ccTLD) is an Internet top-level domain generally used or reserved for a country, sovereign state, or dependent territory identified with a country code.',

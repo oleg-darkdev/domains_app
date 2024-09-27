@@ -10,7 +10,8 @@ const data = {
     zone: {},
   },
   promoImg: '',
-  id: 0,
+  icon: '',
+  id: 8,
   wikipedia: 'https://en.wikipedia.org/wiki/Sponsored_top-level_domain',
   shortDesc:
     'A sponsored top-level domain (sTLD) is one of the categories of top-level domains (TLDs) maintained by the Internet Assigned Numbers Authority (IANA) for use in the Domain Name System of the Internet.',

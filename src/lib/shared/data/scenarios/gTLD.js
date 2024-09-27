@@ -12,7 +12,8 @@ const data = {
     zone: {},
   },
   promoImg: '',
-  id: 0,
+  icon: '',
+  id: 6,
   wikipedia: 'https://en.wikipedia.org/wiki/Generic_top-level_domain',
   desc: [
     `The core group of generic top-level domains consists of the com, net, org, biz, and info domains. In addition, the domains name and pro are also considered generic; however, these are designated as restricted, because registrations within them require proof of eligibility within the guidelines set for each. `,

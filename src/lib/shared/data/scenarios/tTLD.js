@@ -10,7 +10,8 @@ const data = {
     zone: {},
   },
   promoImg: '',
-  id: 0,
+  icon: '',
+  id: 9,
   wikipedia: 'https://en.wikipedia.org/wiki/.test',
   shortDesc:
     '.test is a reserved top-level domain used to test websites or web applications as an alternative to testing webpages using the default localhost. It is guaranteed to never be registered into the Internet.',

@@ -1,12 +1,13 @@
-import tTLD from './tTLD/data.js'
-
 const data = {
   abbr: 'tTLD.',
 
   title: 'Test top-level domains (tTLD).',
   domains: {
-    all: [tTLD],
-    alphabet: {},
+    all: {
+      title: 'All.',
+      api: 'http://localhost:5173/api/tTLD/',
+    },
+    zone: {},
   },
   promoImg: '',
   id: 0,
@@ -20,5 +21,4 @@ const data = {
   ],
 }
 
-
-export default data;
+export default data

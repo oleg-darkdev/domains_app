@@ -1,4 +1,3 @@
-import arpa from './arpa/data.js'
 
 const data = {
   abbr: 'ARPA.',
@@ -6,8 +5,11 @@ const data = {
   shortDesc:
     'The domain name arpa is a top-level domain (TLD) in the Domain Name System (DNS) of the Internet.',
   domains: {
-    all: [arpa],
-    alphabet: {},
+    all: {
+      title: 'All.',
+      api: 'http://localhost:5173/api/arpa/',
+    },
+    zone: {},
   },
   promoImg: '',
   id: 0,
@@ -20,5 +22,4 @@ const data = {
   ],
 }
 
-
-export default data;
+export default data

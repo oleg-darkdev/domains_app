@@ -1,4 +1,13 @@
-// import FactSheet from './ui/landing/FactSheet.svelte';
+// app
 
 
-// export { FactSheet };
+// landing
+import ScenarioCard from './ui/landing/ScenarioCard.svelte';
+// import ScenarioCard from './ui/landing/ScenarioCard.svelte'
+// import ScenarioCard from './ui/landing/ScenarioCard.svelte'
+// import ScenarioCard from './ui/landing/ScenarioCard.svelte'
+// import ScenarioCard from './ui/landing/ScenarioCard.svelte'
+// import ScenarioCard from './ui/landing/ScenarioCard.svelte'
+
+
+export { ScenarioCard }

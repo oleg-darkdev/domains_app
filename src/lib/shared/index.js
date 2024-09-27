@@ -1,14 +1,5 @@
 // data
-import ccTLD from './data/ccTLD'
-import icann from './data/icann'
-import geoTLD from './data/geoTLD'
-import bTLD from './data/bTLD'
-
-// import arpa from './data/arpa';
-// import grTLD from './data/grTLD';
-// import gTLD from './data/gTLD';
-// import sTLD from './data/sTLD';
-// import tTLD from './data/tTLD';
+import scenarios from './data/scenarios'
 
 // =========================== API
 // ======================== bTLD
@@ -111,10 +102,9 @@ import icannDataY from './api/icann/dataY'
 import icannDataZ from './api/icann/dataZ'
 
 export {
-  ccTLD,
-  icann,
-  geoTLD,
-  bTLD,
+  // data
+  scenarios,
+
 
   //============================== API
   // bTLD

@@ -1,0 +1,82 @@
+const data = [
+  {
+    name: '.uconnect',
+    entity: 'Uconnect.',
+    sponsor: {
+      title: '',
+      link: '',
+    },
+    administrator: {
+      title: 'Not assigned.',
+      link: '',
+    },
+    notes: [``],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: '',
+    logo: '/images/domains/icann/uconnect.svg',
+    promoImg: '/images/domains/icann/uconnect.svg',
+  },
+  {
+    name: '.university',
+    entity: 'University.',
+    sponsor: {
+      title: '',
+      link: '',
+    },
+    administrator: {
+      title: 'Identity Digital.',
+      link: 'https://en.wikipedia.org/wiki/Identity_Digital',
+    },
+    notes: [
+      `Online universities, brick-and-mortar universities, university-related clubs & organizations.`,
+    ],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: '',
+    logo: '/images/domains/icann/university.svg',
+    promoImg: '/images/domains/icann/university.svg',
+  },
+  {
+    name: '.uno',
+    entity: 'Uno.',
+    sponsor: {
+      title: '',
+      link: '',
+    },
+    administrator: {
+      title: '',
+      link: '',
+    },
+    notes: [`General, Spanish and Italian speakers, Uno (card game).`],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: 'https://en.wikipedia.org/wiki/.uno',
+    logo: '/images/domains/icann/uno.svg',
+    promoImg: '/images/domains/icann/uno.svg',
+  },
+  
+]
+
+export default data

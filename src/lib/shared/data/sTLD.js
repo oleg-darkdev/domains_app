@@ -1,12 +1,13 @@
-import sTLD from './sTLD/data.js'
-
 const data = {
   abbr: 'sTLD.',
 
   title: 'Sponsored top-level domains (sTLD)',
   domains: {
-    all: [sTLD],
-    alphabet: {},
+    all: {
+      title: 'All.',
+      api: 'http://localhost:5173/api/sTLD/',
+    },
+    zone: {},
   },
   promoImg: '',
   id: 0,
@@ -19,5 +20,4 @@ const data = {
   ],
 }
 
-
-export default data;
+export default data

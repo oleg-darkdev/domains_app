@@ -1,68 +1,49 @@
-import dataAfrika from './geoTLD/dataAfrika'
-import dataAsia from './geoTLD/dataAsia'
-import dataEurope from './geoTLD/dataEurope'
-import dataSpain from './geoTLD/dataSpain'
-import dataGermany from './geoTLD/dataGermany'
-import dataFrance from './geoTLD/dataFrance'
-import dataOceania from './geoTLD/dataOceania'
-import dataNorthAmerica from './geoTLD/dataNorthAmerica'
-import dataSouthAmerica from './geoTLD/dataSouthAmerica'
-
-
-
 const data = {
   abbr: 'geoTLD.',
 
   title: 'Geographic top-level domains (geoTLD).',
   shortDesc: '',
   domains: {
-    all: [].concat(
-      dataAfrika,
-      dataAsia,
-      dataEurope,
-      dataSpain,
-      dataGermany,
-      dataFrance,
-      dataOceania,
-      dataNorthAmerica,
-      dataSouthAmerica,
-    ),
-    alphabet: {
+    all: {
+      title: 'All.',
+      api: 'http://localhost:5173/api/geoTLD/',
+    },
+    zone: {
       afrika: {
         title: 'Afrika',
-        data: dataAfrika,
+        data: 'http://localhost:5173/api/geoTLD/zone/afrika',
       },
       asia: {
         title: 'Asia',
-        data: dataAsia,
+        data: 'http://localhost:5173/api/geoTLD/zone/asia',
       },
       europe: {
         title: 'Europe',
-        data: dataEurope,
+        data: 'http://localhost:5173/api/geoTLD/zone/europe',
       },
       spain: {
         title: 'Spain',
-        data: dataSpain,
+        data: 'http://localhost:5173/api/geoTLD/zone/spain',
       },
       germany: {
         title: 'Germany',
-        data: dataGermany,
+        data: 'http://localhost:5173/api/geoTLD/zone/germany',
       },
       france: {
         title: 'France',
-        data: dataFrance,
+        data: 'http://localhost:5173/api/geoTLD/zone/france',
       },
       northAmerica: {
         title: 'North America',
-        data: dataNorthAmerica,
+        data: 'http://localhost:5173/api/geoTLD/zone/north-america',
       },
       oceania: {
         title: 'Oceania',
-        data: dataOceania,
+        data: 'http://localhost:5173/api/geoTLD/zone/oceania',
       },
       southAmerica: {
         title: 'South America',
-        data: dataSouthAmerica,
+        data: 'http://localhost:5173/api/geoTLD/zone/south-america',
       },
     },
   },

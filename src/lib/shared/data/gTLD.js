@@ -1,5 +1,3 @@
-import gTLD from './gTLD/data.js'
-
 const data = {
   abbr: 'gTLD.',
 
@@ -7,8 +5,11 @@ const data = {
   shortDesc:
     'Generic top-level domains (gTLDs) are one of the categories of top-level domains (TLDs) maintained by the Internet Assigned Numbers Authority (IANA) for use in the Domain Name System of the Internet.',
   domains: {
-    all: [gTLD],
-    alphabet: {},
+    all: {
+      title: 'All.',
+      api: 'http://localhost:5173/api/gTLD/',
+    },
+    zone: {},
   },
   promoImg: '',
   id: 0,
@@ -20,5 +21,4 @@ const data = {
   ],
 }
 
-
-export default data;
+export default data

@@ -1,167 +1,116 @@
-import dataA from './icann/dataA'
-import dataB from './icann/dataB'
-import dataC from './icann/dataC'
-import dataD from './icann/dataD'
-import dataE from './icann/dataE'
-import dataF from './icann/dataF'
-import dataG from './icann/dataG'
-import dataH from './icann/dataH'
-import dataI from './icann/dataI'
-import dataJ from './icann/dataJ'
-import dataK from './icann/dataK'
-import dataL from './icann/dataL'
-import dataM from './icann/dataM'
-import dataN from './icann/dataN'
-import dataO from './icann/dataO'
-import dataP from './icann/dataP'
-import dataQ from './icann/dataQ'
-import dataR from './icann/dataR'
-import dataS from './icann/dataS'
-import dataT from './icann/dataT'
-import dataU from './icann/dataU'
-import dataV from './icann/dataV'
-import dataW from './icann/dataW'
-import dataX from './icann/dataX'
-import dataY from './icann/dataY'
-import dataZ from './icann/dataZ'
-
 const data = {
   abbr: 'ICANN.',
 
   title: 'ICANN-era generic top-level domains',
   domains: {
-    all: [].concat(
-      dataA,
-      dataB,
-      dataC,
-      dataD,
-      dataE,
-      dataF,
-      dataG,
-      dataH,
-      dataI,
-      dataJ,
-      dataK,
-      dataL,
-      dataM,
-      dataN,
-      dataO,
-      dataP,
-      dataQ,
-      dataR,
-      dataS,
-      dataT,
-      dataU,
-      dataV,
-      dataW,
-      dataX,
-      dataY,
-      dataZ,
-    ),
-    alphabet: {
+    all: {
+      api: 'http://localhost:5173/api/icann',
+      title: 'All.',
+    },
+    zone: {
       a: {
         title: 'A',
-        data: dataA,
+        api: 'http://localhost:5173/api/icann/zone/a',
       },
       b: {
         title: 'B',
-        data: dataB,
+        api: 'http://localhost:5173/api/icann/zone/b',
       },
       c: {
         title: 'C',
-        data: dataC,
+        api: 'http://localhost:5173/api/icann/zone/c',
       },
       d: {
         title: 'D',
-        data: dataD,
+        api: 'http://localhost:5173/api/icann/zone/d',
       },
       e: {
         title: 'E',
-        data: dataE,
+        api: 'http://localhost:5173/api/icann/zone/e',
       },
       f: {
         title: 'F',
-        data: dataF,
+        api: 'http://localhost:5173/api/icann/zone/f',
       },
       g: {
         title: 'G',
-        data: dataG,
+        api: 'http://localhost:5173/api/icann/zone/g',
       },
       h: {
         title: 'H',
-        data: dataH,
+        api: 'http://localhost:5173/api/icann/zone/h',
       },
       i: {
         title: 'I',
-        data: dataI,
+        api: 'http://localhost:5173/api/icann/zone/i',
       },
       j: {
         title: 'J',
-        data: dataJ,
+        api: 'http://localhost:5173/api/icann/zone/j',
       },
       k: {
         title: 'K',
-        data: dataK,
+        api: 'http://localhost:5173/api/icann/zone/k',
       },
       l: {
         title: 'L',
-        data: dataL,
+        api: 'http://localhost:5173/api/icann/zone/l',
       },
       m: {
         title: 'M',
-        data: dataM,
+        api: 'http://localhost:5173/api/icann/zone/m',
       },
       n: {
         title: 'N',
-        data: dataN,
+        api: 'http://localhost:5173/api/icann/zone/n',
       },
       o: {
         title: 'O',
-        data: dataO,
+        api: 'http://localhost:5173/api/icann/zone/o',
       },
       p: {
         title: 'P',
-        data: dataP,
+        api: 'http://localhost:5173/api/icann/zone/p',
       },
       q: {
         title: 'Q',
-        data: dataQ,
+        api: 'http://localhost:5173/api/icann/zone/q',
       },
       r: {
         title: 'R',
-        data: dataR,
+        api: 'http://localhost:5173/api/icann/zone/r',
       },
       s: {
         title: 'S',
-        data: dataS,
+        api: 'http://localhost:5173/api/icann/zone/s',
       },
       t: {
         title: 'T',
-        data: dataT,
+        api: 'http://localhost:5173/api/icann/zone/t',
       },
       u: {
         title: 'U',
-        data: dataU,
+        api: 'http://localhost:5173/api/icann/zone/u',
       },
       v: {
         title: 'V',
-        data: dataV,
+        api: 'http://localhost:5173/api/icann/zone/v',
       },
       w: {
         title: 'W',
-        data: dataW,
+        api: 'http://localhost:5173/api/icann/zone/w',
       },
       x: {
         title: 'X',
-        data: dataX,
+        api: 'http://localhost:5173/api/icann/zone/x',
       },
       y: {
         title: 'Y',
-        data: dataY,
+        api: 'http://localhost:5173/api/icann/zone/y',
       },
       z: {
         title: 'Z',
-        data: dataZ,
+        api: 'http://localhost:5173/api/icann/zone/z',
       },
     },
   },
@@ -172,5 +121,4 @@ const data = {
   desc: [``, ``, ``],
 }
 
-
-export default data;
+export default data

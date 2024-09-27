@@ -1,166 +1,115 @@
-import dataA from './bTLD/dataA'
-import dataB from './bTLD/dataB'
-import dataC from './bTLD/dataC'
-import dataD from './bTLD/dataD'
-import dataE from './bTLD/dataE'
-import dataF from './bTLD/dataF'
-import dataG from './bTLD/dataG'
-import dataH from './bTLD/dataH'
-import dataI from './bTLD/dataI'
-import dataJ from './bTLD/dataJ'
-import dataK from './bTLD/dataK'
-import dataL from './bTLD/dataL'
-import dataM from './bTLD/dataM'
-import dataN from './bTLD/dataN'
-import dataO from './bTLD/dataO'
-import dataP from './bTLD/dataP'
-import dataQ from './bTLD/dataQ'
-import dataR from './bTLD/dataR'
-import dataS from './bTLD/dataS'
-import dataT from './bTLD/dataT'
-import dataU from './bTLD/dataU'
-import dataV from './bTLD/dataV'
-import dataW from './bTLD/dataW'
-import dataX from './bTLD/dataX'
-import dataY from './bTLD/dataY'
-import dataZ from './bTLD/dataZ'
-
 const data = {
   abbr: 'bTLD.',
   title: 'Brand and corporate top-level domains (bTLD)',
   domains: {
-    all: [].concat(
-      dataA,
-      dataB,
-      dataC,
-      dataD,
-      dataE,
-      dataF,
-      dataG,
-      dataH,
-      dataI,
-      dataJ,
-      dataK,
-      dataL,
-      dataM,
-      dataN,
-      dataO,
-      dataP,
-      dataQ,
-      dataR,
-      dataS,
-      dataT,
-      dataU,
-      dataV,
-      dataW,
-      dataX,
-      dataY,
-      dataZ,
-    ),
-    alphabet: {
+    all: {
+      api: 'http://localhost:5173/api/bTLD/',
+      title: 'All.',
+    },
+    zone: {
       a: {
         title: 'A',
-        data: dataA,
+        api: 'http://localhost:5173/api/bTLD/zone/a',
       },
       b: {
         title: 'B',
-        data: dataB,
+        api: 'http://localhost:5173/api/bTLD/zone/b',
       },
       c: {
         title: 'C',
-        data: dataC,
+        api: 'http://localhost:5173/api/bTLD/zone/c',
       },
       d: {
         title: 'D',
-        data: dataD,
+        api: 'http://localhost:5173/api/bTLD/zone/d',
       },
       e: {
         title: 'E',
-        data: dataE,
+        api: 'http://localhost:5173/api/bTLD/zone/e',
       },
       f: {
         title: 'F',
-        data: dataF,
+        api: 'http://localhost:5173/api/bTLD/zone/f',
       },
       g: {
         title: 'G',
-        data: dataG,
+        api: 'http://localhost:5173/api/bTLD/zone/g',
       },
       h: {
         title: 'H',
-        data: dataH,
+        api: 'http://localhost:5173/api/bTLD/zone/h',
       },
       i: {
         title: 'I',
-        data: dataI,
+        api: 'http://localhost:5173/api/bTLD/zone/i',
       },
       j: {
         title: 'J',
-        data: dataJ,
+        api: 'http://localhost:5173/api/bTLD/zone/j',
       },
       k: {
         title: 'K',
-        data: dataK,
+        api: 'http://localhost:5173/api/bTLD/zone/k',
       },
       l: {
         title: 'L',
-        data: dataL,
+        api: 'http://localhost:5173/api/bTLD/zone/l',
       },
       m: {
         title: 'M',
-        data: dataM,
+        api: 'http://localhost:5173/api/bTLD/zone/m',
       },
       n: {
         title: 'N',
-        data: dataN,
+        api: 'http://localhost:5173/api/bTLD/zone/n',
       },
       o: {
         title: 'O',
-        data: dataO,
+        api: 'http://localhost:5173/api/bTLD/zone/o',
       },
       p: {
         title: 'P',
-        data: dataP,
+        api: 'http://localhost:5173/api/bTLD/zone/p',
       },
       q: {
         title: 'Q',
-        data: dataQ,
+        api: 'http://localhost:5173/api/bTLD/zone/q',
       },
       r: {
         title: 'R',
-        data: dataR,
+        api: 'http://localhost:5173/api/bTLD/zone/r',
       },
       s: {
         title: 'S',
-        data: dataS,
+        api: 'http://localhost:5173/api/bTLD/zone/s',
       },
       t: {
         title: 'T',
-        data: dataT,
+        api: 'http://localhost:5173/api/bTLD/zone/t',
       },
       u: {
         title: 'U',
-        data: dataU,
+        api: 'http://localhost:5173/api/bTLD/zone/u',
       },
       v: {
         title: 'V',
-        data: dataV,
+        api: 'http://localhost:5173/api/bTLD/zone/v',
       },
       w: {
         title: 'W',
-        data: dataW,
+        api: 'http://localhost:5173/api/bTLD/zone/w',
       },
       x: {
         title: 'X',
-        data: dataX,
+        api: 'http://localhost:5173/api/bTLD/zone/x',
       },
       y: {
         title: 'Y',
-        data: dataY,
+        api: 'http://localhost:5173/api/bTLD/zone/y',
       },
       z: {
         title: 'Z',
-        data: dataZ,
+        api: 'http://localhost:5173/api/bTLD/zone/z',
       },
     },
   },
@@ -171,5 +120,4 @@ const data = {
   desc: [``, ``, ``],
 }
 
-
-export default data;
+export default data

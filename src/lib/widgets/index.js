@@ -13,10 +13,17 @@ import Faq from './ui/landing/Faq.svelte'
 // import Faq from './ui/landing/Faq.svelte'
 // import Faq from './ui/landing/Faq.svelte'
 
-// appp
+
+// app
+import AboutScenario from './ui/app/AboutScenario.svelte'
+import OtherScenarios from './ui/app/OtherScenarios.svelte'
+// import Faq from './ui/landing/Faq.svelte'
+// import Faq from './ui/landing/Faq.svelte'
+
 
 export {
   HeaderLanding,
+  OtherScenarios,
   Hero,
   AboutAuthorLanding,
   Scenarios,
@@ -24,4 +31,5 @@ export {
   Footer,
   Roadmap,
   Faq,
+  AboutScenario,
 }

@@ -2,7 +2,7 @@
 import scenarios from './data/scenarios'
 import navigation from './data/navigation'
 import roadmap from './data/roadmap'
-// import roadmap from './data/roadmap'
+import team from './data/team'
 // import roadmap from './data/roadmap'
 // import roadmap from './data/roadmap'
 // import roadmap from './data/roadmap'
@@ -113,6 +113,9 @@ export {
   scenarios,
   navigation,
   roadmap,
+  team,
+
+
 
   //============================== API
   // bTLD

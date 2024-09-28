@@ -1,7 +1,7 @@
 const data = {
   abbr: 'gTLD.',
-
-  title: 'Generic top-level domains (gTLDs)',
+  //  (gTLDs)
+  title: 'Generic top-level domains.',
   shortDesc:
     'Generic top-level domains (gTLDs) are one of the categories of top-level domains (TLDs) maintained by the Internet Assigned Numbers Authority (IANA) for use in the Domain Name System of the Internet.',
   domains: {
@@ -11,8 +11,11 @@ const data = {
     },
     zone: {},
   },
-  promoImg: '',
-  icon: '',
+  complexity: 'basic',
+  timeToPlay: 'basic',
+  promoImg: '/images/scenarios/promo/gTLD.svg',
+  icon: '/images/scenarios/icons/gTLD.svg',
+  brandColor: '',
   id: 6,
   wikipedia: 'https://en.wikipedia.org/wiki/Generic_top-level_domain',
   desc: [

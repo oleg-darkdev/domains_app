@@ -1,7 +1,7 @@
 const data = {
   abbr: 'grTLD.',
-
-  title: 'Generic-restricted top-level domains (grTLD)',
+  //  (grTLD)
+  title: 'Generic-restricted top-level domains.',
   domains: {
     all: {
       title: 'All.',
@@ -9,11 +9,15 @@ const data = {
     },
     zone: {},
   },
-  promoImg: '',
-  icon: '',
+  complexity: 'basic',
+  timeToPlay: 'basic',
+  promoImg: '/images/scenarios/promo/grTLD.svg',
+  shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  icon: '/images/scenarios/icons/grTLD.svg',
+  brandColor: '',
+
   id: 5,
   wikipedia: '',
-  shortDesc: '',
   desc: [``, ``, ``],
 }
 

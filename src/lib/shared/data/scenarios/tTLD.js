@@ -1,7 +1,7 @@
 const data = {
   abbr: 'tTLD.',
-
-  title: 'Test top-level domains (tTLD).',
+  //  (tTLD)
+  title: 'Test top-level domains.',
   domains: {
     all: {
       title: 'All.',
@@ -9,8 +9,11 @@ const data = {
     },
     zone: {},
   },
-  promoImg: '',
-  icon: '',
+  complexity: 'basic',
+  timeToPlay: 'basic',
+  promoImg: '/images/scenarios/promo/tTLD.svg',
+  icon: '/images/scenarios/icons/tTLD.svg',
+  brandColor: '',
   id: 9,
   wikipedia: 'https://en.wikipedia.org/wiki/.test',
   shortDesc:

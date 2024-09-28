@@ -1,7 +1,7 @@
 const data = {
   abbr: 'ICANN.',
-
-  title: 'ICANN-era generic top-level domains',
+  // ICANN-
+  title: 'Era generic top-level domains.',
   domains: {
     all: {
       api: 'http://localhost:5173/api/icann',
@@ -114,9 +114,12 @@ const data = {
       },
     },
   },
-  shortDesc: '',
-  promoImg: '',
-  icon: '',
+  complexity: 'basic',
+  timeToPlay: 'basic',
+  promoImg: '/images/scenarios/promo/icann.svg',
+  shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  icon: '/images/scenarios/icons/icann.svg',
+  brandColor: '',
   id: 7,
   wikipedia: '',
   desc: [``, ``, ``],

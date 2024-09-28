@@ -1,7 +1,8 @@
 
 const data = {
   abbr: 'ARPA.',
-  title: 'infrastructure top-level domain (ARPA).',
+  //  (ARPA)
+  title: 'infrastructure top-level domain.',
   shortDesc:
     'The domain name arpa is a top-level domain (TLD) in the Domain Name System (DNS) of the Internet.',
   domains: {
@@ -11,8 +12,11 @@ const data = {
     },
     zone: {},
   },
-  promoImg: '',
-  icon: '',
+  complexity: 'basic',
+  timeToPlay: 'basic',
+  promoImg: '/images/scenarios/promo/arpa.svg',
+  icon: '/images/scenarios/icons/arpa.svg',
+  brandColor: '',
   id: 1,
   wikipedia: 'https://en.wikipedia.org/wiki/.arpa',
   desc: [

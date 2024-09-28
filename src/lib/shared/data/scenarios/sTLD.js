@@ -1,7 +1,7 @@
 const data = {
   abbr: 'sTLD.',
-
-  title: 'Sponsored top-level domains (sTLD)',
+  //  (sTLD)
+  title: 'Sponsored top-level domains.',
   domains: {
     all: {
       title: 'All.',
@@ -9,8 +9,11 @@ const data = {
     },
     zone: {},
   },
-  promoImg: '',
-  icon: '',
+  complexity: 'basic',
+  timeToPlay: 'basic',
+  promoImg: '/images/scenarios/promo/sTLD.svg',
+  icon: '/images/scenarios/icons/sTLD.svg',
+  brandColor: '',
   id: 8,
   wikipedia: 'https://en.wikipedia.org/wiki/Sponsored_top-level_domain',
   shortDesc:

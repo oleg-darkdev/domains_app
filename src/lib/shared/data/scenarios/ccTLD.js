@@ -1,7 +1,7 @@
 const data = {
   abbr: 'ccTLD.',
-
-  title: 'Country code top-level domains (ccTLD).',
+  //  (ccTLD)
+  title: 'Country code top-level domains.',
   domains: {
     all: {
       api: 'http://localhost:5173/api/ccTLD',
@@ -114,8 +114,12 @@ const data = {
       },
     },
   },
-  promoImg: '',
-  icon: '',
+  complexity: 'basic',
+  timeToPlay: 'basic',
+  promoImg: '/images/scenarios/promo/ccTLD.svg',
+  icon: '/images/scenarios/icons/ccTLD.svg',
+  brandColor: '',
+
   id: 3,
   wikipedia: 'https://en.wikipedia.org/wiki/Country_code_top-level_domain',
   shortDesc:

@@ -6,7 +6,12 @@ import Scenarios from './ui/landing/Scenarios.svelte'
 import Roadmap from './ui/landing/Roadmap.svelte'
 import Contact from './ui/landing/Contact.svelte'
 import Footer from './ui/landing/Footer.svelte'
-// import HeaderLanding from './ui/landing/Header.svelte'
+import Faq from './ui/landing/Faq.svelte'
+// import Faq from './ui/landing/Faq.svelte'
+// import Faq from './ui/landing/Faq.svelte'
+// import Faq from './ui/landing/Faq.svelte'
+// import Faq from './ui/landing/Faq.svelte'
+// import Faq from './ui/landing/Faq.svelte'
 
 // appp
 
@@ -18,4 +23,5 @@ export {
   Contact,
   Footer,
   Roadmap,
+  Faq,
 }

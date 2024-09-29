@@ -1,15 +1,13 @@
-import templateArticles from './articles/template';
+import ccTLD from './articles/ccTLD'
+import geoTLD from './articles/geoTLD'
+import bTLD from './articles/bTLD'
+import icann from './articles/icann'
 
 const articlesList = [
   {
     title: 'All',
     id: 0,
-    articles: [
-      templateArticles,
-      templateArticles,
-      templateArticles,
-      templateArticles,
-    ],
+    articles: [].concat(ccTLD, geoTLD, bTLD, icann),
   },
   // {
   //   title: 'sTLD.',
@@ -19,12 +17,12 @@ const articlesList = [
   {
     title: 'bTLD.',
     id: 1,
-    articles: [templateArticles, templateArticles],
+    articles: bTLD,
   },
   {
     title: 'geoTLD.',
     id: 2,
-    articles: [templateArticles, templateArticles],
+    articles: geoTLD,
   },
   // {
   //   title: 'grTLD.',
@@ -39,7 +37,7 @@ const articlesList = [
   {
     title: 'ccTLD.',
     id: 5,
-    articles: [templateArticles, templateArticles],
+    articles: ccTLD,
   },
   // {
   //   title: 'tTLD.',
@@ -49,15 +47,13 @@ const articlesList = [
   {
     title: 'icann.',
     id: 6,
-    articles: [templateArticles, templateArticles],
+    articles: icann,
   },
   // {
   //   title: 'arpa.',
   //   id: 1,
   //   articles: [templateArticles, templateArticles],
   // },
-
 ]
 
-
-export { articlesList }
+export default articlesList;

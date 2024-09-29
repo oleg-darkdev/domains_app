@@ -6,7 +6,8 @@ import OtherScenarioCardApp from './ui/app/OtherScenarioCardApp.svelte'
 // landing
 import ScenarioCard from './ui/landing/ScenarioCard.svelte';
 import RoadmapCard from './ui/landing/RoadmapCard.svelte'
-import TeamMemberCard from './ui/landing/TeamMemberCard.svelte'
+import BigTeamMemberCard from './ui/landing/BigTeamMemberCard.svelte'
+import SmallTeamMemberCard from './ui/landing/SmallTeamMemberCard.svelte'
 import FaqCard from './ui/landing/FaqCard.svelte'
 import OtherBoardgameCard from './ui/landing/OtherBoardgameCard.svelte'
 import FulWidthBanner from './ui/landing/FulWidthBanner.svelte'
@@ -27,7 +28,8 @@ export {
   DomainCard,
   BigNewsletterCard,
   RoadmapCard,
-  TeamMemberCard,
+  BigTeamMemberCard,
+  SmallTeamMemberCard,
   OtherScenarioCardApp,
   FaqCard,
   OtherBoardgameCard,

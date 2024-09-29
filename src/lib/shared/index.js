@@ -5,9 +5,8 @@ import roadmap from './data/roadmap'
 import team from './data/team'
 import faqData from './data/faqData'
 import otherBoardgames from './data/otherBoardgames'
-import { articlesList } from './data/articlesList'
+import articlesList from './data/articlesList'
 import promoDomains from './data/promoDomains'
-// import otherBoardgames from './data/otherBoardgames'
 // import otherBoardgames from './data/otherBoardgames'
 // import otherBoardgames from './data/otherBoardgames'
 // import { otherBoardgamesList } from './data/store'
@@ -18,6 +17,7 @@ import promoDomains from './data/promoDomains'
 import Blockquote from './ui/Blockquote.svelte'
 import ArticleDivider from './ui/ArticleDivider.svelte'
 import MediumImgBlock from './ui/MediumImgBlock.svelte'
+import GrayBtn from './ui/GrayBtn.svelte'
 // import roadmap from './ui/roadmap.svelte'
 
 // =========================== API
@@ -125,6 +125,7 @@ export {
   Blockquote,
   ArticleDivider,
   MediumImgBlock,
+  GrayBtn,
 
   // data
   scenarios,

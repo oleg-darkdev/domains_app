@@ -3,10 +3,22 @@ import scenarios from './data/scenarios'
 import navigation from './data/navigation'
 import roadmap from './data/roadmap'
 import team from './data/team'
-// import roadmap from './data/roadmap'
-// import roadmap from './data/roadmap'
-// import roadmap from './data/roadmap'
-// import roadmap from './data/roadmap'
+import faqData from './data/faqData'
+import otherBoardgames from './data/otherBoardgames'
+import { articlesList } from './data/articlesList'
+import promoDomains from './data/promoDomains'
+// import otherBoardgames from './data/otherBoardgames'
+// import otherBoardgames from './data/otherBoardgames'
+// import otherBoardgames from './data/otherBoardgames'
+// import { otherBoardgamesList } from './data/store'
+
+
+
+// ui
+import Blockquote from './ui/Blockquote.svelte'
+import ArticleDivider from './ui/ArticleDivider.svelte'
+import MediumImgBlock from './ui/MediumImgBlock.svelte'
+// import roadmap from './ui/roadmap.svelte'
 
 // =========================== API
 // ======================== bTLD
@@ -109,13 +121,21 @@ import icannDataY from './api/icann/dataY'
 import icannDataZ from './api/icann/dataZ'
 
 export {
+  // ui
+  Blockquote,
+  ArticleDivider,
+  MediumImgBlock,
+
   // data
   scenarios,
   navigation,
   roadmap,
   team,
-
-
+  faqData,
+  otherBoardgames,
+  // otherBoardgamesList,
+  articlesList,
+  promoDomains,
 
   //============================== API
   // bTLD

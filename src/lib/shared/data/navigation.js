@@ -1,6 +1,6 @@
 const navigation = [
   {
-    title: 'About author.',
+    title: 'About author',
     link: '#author',
   },
   // {

@@ -23,6 +23,11 @@ const data = {
     `Historically, the group of generic top-level domains included domains created in the early development of the domain name system, that are now sponsored by designated agencies or organizations and are restricted to specific types of registrants. Thus, domains edu, gov, int, and mil are now considered sponsored top-level domains, along with other themed top-level domains like jobs.`,
     `The entire group of domains that do not have a geographic or country designation (see country-code top-level domain) is still often referred to by the term generic TLDs.`,
   ],
+  gallery: [
+    '/images/scenarios/gallery/gTLD_1.svg',
+    '/images/scenarios/gallery/gTLD_2.svg',
+    '/images/scenarios/gallery/gTLD_3.svg',
+  ],
 }
 
 export default data

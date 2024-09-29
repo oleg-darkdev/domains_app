@@ -118,12 +118,17 @@ const data = {
   complexity: 'basic',
   timeToPlay: 'basic',
   promoImg: '/images/scenarios/promo/bTLD.svg',
-  shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book.`,
   icon: '/images/scenarios/icons/bTLD.svg',
   brandColor: '',
   id: 2,
   wikipedia: '',
   desc: [``, ``, ``],
+  gallery: [
+    '/images/scenarios/gallery/bTLD_1.svg',
+    '/images/scenarios/gallery/bTLD_2.svg',
+    '/images/scenarios/gallery/bTLD_3.svg',
+  ],
 }
 
 export default data

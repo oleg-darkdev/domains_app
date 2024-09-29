@@ -131,6 +131,11 @@ const data = {
     `Country code extension applications began in 1985. The registered country code extensions in that year included .us (United States), .uk (United Kingdom) and .il (Israel). The registered country code extensions in 1986 included .au (Australia), .de (Germany), .fi (Finland), .fr (France), .is (Iceland), .jp (Japan), .kr (South Korea), .nl (Netherlands) and .se (Sweden). The registered country code extensions in 1987 included .nz (New Zealand), .ch (Switzerland) and .ca (Canada).[2] The registered country code extensions in 1988 included .ie (Ireland) .it (Italy), .es (Spain) and .pt (Portugal). The registered country code extensions in 1989 included .in (India) and .yu (Yugoslavia). In the 1990s, .cn (People's Republic of China) and .ru (Russian Federation) were first registered.`,
     `The .cn, .tk, .de, .uk, .nl and .ru ccTLDs contain the highest number of domains. The top ten ccTLDs account for more than five-eighths of registered ccTLD domains. There were about 153 million ccTLD domains registered at the end of March 2022`,
   ],
+  gallery: [
+    '/images/scenarios/gallery/ccTLD_1.svg',
+    '/images/scenarios/gallery/ccTLD_2.svg',
+    '/images/scenarios/gallery/ccTLD_3.svg',
+  ],
 }
 
 export default data

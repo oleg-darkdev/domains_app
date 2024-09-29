@@ -23,6 +23,11 @@ const data = {
     `In June 1999, the Internet Engineering Task Force reserved the DNS labels .example, .invalid, .localhost, and .test so that they may not be installed into the root zone of the Domain Name System.`,
     `These top-level domain names were reserved to reduce the likelihood of conflict and confusion.[2] This allows their usage for either documentation purposes or in local testing scenarios. IANA.org states "Domains which are described as registered to IANA or ICANN on policy grounds are not available for registration or transfer, with the exception of country-name.info domains. These domains are available for release by the ICANN Governmental Advisory Committee Secretariat."`,
   ],
+  gallery: [
+    '/images/scenarios/gallery/tTLD_1.svg',
+    '/images/scenarios/gallery/tTLD_2.svg',
+    '/images/scenarios/gallery/tTLD_3.svg',
+  ],
 }
 
 export default data

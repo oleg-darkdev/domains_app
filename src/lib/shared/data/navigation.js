@@ -1,7 +1,7 @@
 const navigation = [
   {
-    title: 'About',
-    link: '#about',
+    title: 'About author.',
+    link: '#author',
   },
   // {
   //   title: '',
@@ -23,10 +23,10 @@ const navigation = [
     title: 'F.A.Q.',
     link: '#faq',
   },
-  {
-    title: 'Contact',
-    link: '#contact',
-  },
+  // {
+  //   title: 'Contact',
+  //   link: '#contact',
+  // },
 ]
 
 export default navigation;

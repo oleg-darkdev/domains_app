@@ -3,5 +3,8 @@ import { apiCCTLDallAll } from '$lib/shared'
 
 
 export async function GET(event) {
-	return json(apiCCTLDallAll)
-}
+  return json(apiCCTLDallAll, {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
+  })}

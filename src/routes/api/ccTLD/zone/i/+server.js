@@ -2,5 +2,8 @@ import { json } from '@sveltejs/kit'
 import { apiCCTLDdataI } from '$lib/shared'
 
 export async function GET(event) {
-  return json(apiCCTLDdataI)
-}
+  return json(apiCCTLDdataI, {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
+  })}

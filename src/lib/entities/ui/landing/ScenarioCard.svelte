@@ -18,7 +18,7 @@
       {scenario.shortDesc}
     </p>
     <a href="/app" target="_blank" class="primary-button mg-top-20px w-button">Run
-      <span style='font-family: Rodamas, sans-serif; font-size: 70px;' class='mx-4'>{scenario.abbr}</span>
+      <span style='font-family: Rodamas, sans-serif; font-size: 52px;' class='mx-4'>{scenario.abbr}</span>
       scenario
     </a>
   </div>

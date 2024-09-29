@@ -15,9 +15,9 @@
       />
     </div>
     <div class="blog-post-date-wrapper">
-      <div>{article.topic}</div>
+      <div>#{article.topic}</div>
       <div class="divider blog"></div>
-      <div>{article.date}</div>
+      <div>Time to read: {article.timeToRead}</div>
     </div>
     <h2 class="blog-card-title">
       {article.title}

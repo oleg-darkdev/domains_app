@@ -3,7 +3,7 @@
 </script>
 
 
-<div  class="">
+<div class="">
   <a href="{article.link}" class="featured-post w-inline-block">
     <img
       loading="lazy"
@@ -15,9 +15,9 @@
         <div
           class="blog-post-date-wrapper blog-page"
         >
-          <div>{article.topic}</div>
+          <div>#{article.topic}</div>
           <div class="divider blog"></div>
-          <div>{article.date}</div>
+          <div>Time to read: {article.timeToRead}</div>
         </div>
         <h2
           class="display-3"

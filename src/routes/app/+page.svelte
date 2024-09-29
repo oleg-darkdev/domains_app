@@ -6,7 +6,7 @@
 
   // console.log(ccTLD)
   //   const  { data: otherBoardgamesData } = useSWR(
-  //       'http://localhost:5173/api/other-boardgames',
+  //       'https://domains-game.vercel.app/api/other-boardgames',
   //   )
 
   // otherBoardgamesList.set($otherBoardgamesData);
@@ -15,7 +15,7 @@
 
   // console.log(result)
 
-// const { data: domainsAll} = useSWR('http://localhost:5173/api/all'),
+// const { data: domainsAll} = useSWR('https://domains-game.vercel.app/api/all'),
 //   { data: domainsccTLD } = useSWR(ccTLD.domains.all.api),
 //   { data: domainsbTLD } = useSWR(bTLD.domains.all.api),
 //   { data: domainsgeoTLD } = useSWR(geoTLD.domains.all.api),
@@ -41,33 +41,33 @@
 
 <!--
   bTLD--------------------------------
-  http://localhost:5173/api/bTLD/ - all
-  http://localhost:5173/api/bTLD/zone/a
-  http://localhost:5173/api/bTLD/zone/b
-  http://localhost:5173/api/bTLD/zone/c
-  http://localhost:5173/api/bTLD/zone/d
-  http://localhost:5173/api/bTLD/zone/e
-  http://localhost:5173/api/bTLD/zone/f
-  http://localhost:5173/api/bTLD/zone/g
-  http://localhost:5173/api/bTLD/zone/h
-  http://localhost:5173/api/bTLD/zone/i
-  http://localhost:5173/api/bTLD/zone/j
-  http://localhost:5173/api/bTLD/zone/k
-  http://localhost:5173/api/bTLD/zone/l
-  http://localhost:5173/api/bTLD/zone/m
-  http://localhost:5173/api/bTLD/zone/n
-  http://localhost:5173/api/bTLD/zone/o
-  http://localhost:5173/api/bTLD/zone/p
-  http://localhost:5173/api/bTLD/zone/q
-  http://localhost:5173/api/bTLD/zone/r
-  http://localhost:5173/api/bTLD/zone/s
-  http://localhost:5173/api/bTLD/zone/t
-  http://localhost:5173/api/bTLD/zone/u
-  http://localhost:5173/api/bTLD/zone/v
-  http://localhost:5173/api/bTLD/zone/w
-  http://localhost:5173/api/bTLD/zone/x
-  http://localhost:5173/api/bTLD/zone/y
-  http://localhost:5173/api/bTLD/zone/z
+  https://domains-game.vercel.app/api/bTLD/ - all
+  https://domains-game.vercel.app/api/bTLD/zone/a
+  https://domains-game.vercel.app/api/bTLD/zone/b
+  https://domains-game.vercel.app/api/bTLD/zone/c
+  https://domains-game.vercel.app/api/bTLD/zone/d
+  https://domains-game.vercel.app/api/bTLD/zone/e
+  https://domains-game.vercel.app/api/bTLD/zone/f
+  https://domains-game.vercel.app/api/bTLD/zone/g
+  https://domains-game.vercel.app/api/bTLD/zone/h
+  https://domains-game.vercel.app/api/bTLD/zone/i
+  https://domains-game.vercel.app/api/bTLD/zone/j
+  https://domains-game.vercel.app/api/bTLD/zone/k
+  https://domains-game.vercel.app/api/bTLD/zone/l
+  https://domains-game.vercel.app/api/bTLD/zone/m
+  https://domains-game.vercel.app/api/bTLD/zone/n
+  https://domains-game.vercel.app/api/bTLD/zone/o
+  https://domains-game.vercel.app/api/bTLD/zone/p
+  https://domains-game.vercel.app/api/bTLD/zone/q
+  https://domains-game.vercel.app/api/bTLD/zone/r
+  https://domains-game.vercel.app/api/bTLD/zone/s
+  https://domains-game.vercel.app/api/bTLD/zone/t
+  https://domains-game.vercel.app/api/bTLD/zone/u
+  https://domains-game.vercel.app/api/bTLD/zone/v
+  https://domains-game.vercel.app/api/bTLD/zone/w
+  https://domains-game.vercel.app/api/bTLD/zone/x
+  https://domains-game.vercel.app/api/bTLD/zone/y
+  https://domains-game.vercel.app/api/bTLD/zone/z
 
 
 

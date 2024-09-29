@@ -13,8 +13,8 @@ import FulWidthBanner from './ui/landing/FulWidthBanner.svelte'
 import SmallArticleCard from './ui/landing/SmallArticleCard.svelte'
 import BigArticleCard from './ui/landing/BigArticleCard.svelte'
 // import FulWidthBanner from './ui/landing/FulWidthBanner.svelte'
-// import FulWidthBanner from './ui/landing/FulWidthBanner.svelte'
-import Contact from './ui/landing/Contact.svelte'
+import SmallNewsletterCard from './ui/landing/SmallNewsletterCard.svelte'
+import ContactBlock from './ui/landing/ContactBlock.svelte'
 import BigNewsletterCard from './ui/landing/BigNewsletterCard.svelte'
 
 // universal
@@ -23,7 +23,7 @@ import DomainCard from './ui/DomainCard.svelte'
 
 export {
   ScenarioCard,
-  Contact,
+  ContactBlock,
   DomainCard,
   BigNewsletterCard,
   RoadmapCard,
@@ -34,4 +34,5 @@ export {
   FulWidthBanner,
   SmallArticleCard,
   BigArticleCard,
+  SmallNewsletterCard,
 }

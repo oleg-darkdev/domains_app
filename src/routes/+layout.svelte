@@ -8,7 +8,7 @@
 	// });
   import { useSWR } from 'sswr'
   const { data: otherBoardgamesData } = useSWR(
-      'http://localhost:5173/api/other-boardgames',
+      'https://domains-game.vercel.app/api/other-boardgames',
   )
   	import { Footer, OtherBoardgames} from '$lib/widgets';
 

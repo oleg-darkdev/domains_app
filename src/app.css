@@ -2981,7 +2981,7 @@ blockquote {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-bottom: 1px solid #535353;
+  /* border-bottom: 1px solid #535353; */
 }
 
 .social-card-top-wrapper {
@@ -3554,47 +3554,6 @@ blockquote {
 
 .max-width-786px.text-center {
   max-width: 786px;
-}
-
-.progress-circle {
-  width: 32px;
-  height: 32px;
-  border-style: solid;
-  border-width: 4px;
-  border-color: #fff;
-  border-radius: 50%;
-  background-color: #535353;
-}
-
-.progress-line {
-  width: 4px;
-  height: 100%;
-  min-height: 261px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  background-color: #535353;
-}
-
-.roadmap-progress-wrapper {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 132px;
-  margin-right: auto;
-  margin-left: auto;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .grid-blog-posts {
@@ -5400,16 +5359,7 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
-  .grid-road-map-cards {
-    margin-top: 42px;
-    margin-left: 46px;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-  }
 
-  .progress-circle {
-    border-width: 3px;
-  }
 
   .grid-hide-block {
     display: none;
@@ -6045,24 +5995,6 @@ blockquote {
     max-width: 72px;
   }
 
-  .grid-road-map-cards {
-    margin-left: 41px;
-  }
-
-  .progress-circle {
-    width: 26px;
-    height: 26px;
-    border-width: 2px;
-  }
-
-  .progress-line {
-    width: 3px;
-    min-height: 158px;
-  }
-
-  .roadmap-progress-wrapper {
-    left: 16px;
-  }
 
   .blog-image {
     min-height: 284px;

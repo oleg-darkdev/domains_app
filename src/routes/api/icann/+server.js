@@ -3,5 +3,8 @@ import { icannDataAll } from '$lib/shared'
 
 
 export async function GET(event) {
-	return json(icannDataAll)
-}
+  return json(icannDataAll, {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
+  })}

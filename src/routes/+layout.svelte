@@ -6,11 +6,24 @@
 	// onMount(() => {
 	// 	AOS.init();
 	// });
+  import { useSWR } from 'sswr'
+  const { data: otherBoardgamesData } = useSWR(
+      'http://localhost:5173/api/other-boardgames',
+  )
+  	import { Footer, OtherBoardgames} from '$lib/widgets';
+
 </script>
 
-<main class="overflow-hidden page-wrapper">
+<!-- <h2>{$otherBoardgamesList}</h2> -->
+<div class="overflow-hidden page-wrapper">
 	<slot />
-</main>
+
+  {#if $otherBoardgamesData}
+    <OtherBoardgames otherBoardgames={$otherBoardgamesData}/>
+
+    <Footer otherBoardgames={$otherBoardgamesData}/>
+  {/if}
+</div>
 
 <style>
 </style>

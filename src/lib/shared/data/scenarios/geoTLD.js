@@ -5,44 +5,44 @@ const data = {
   domains: {
     all: {
       title: 'All.',
-      api: 'http://localhost:5173/api/geoTLD/',
+      api: 'https://domains-game.vercel.app/api/geoTLD/',
     },
     zone: {
       afrika: {
         title: 'Afrika',
-        data: 'http://localhost:5173/api/geoTLD/zone/afrika',
+        data: 'https://domains-game.vercel.app/api/geoTLD/zone/afrika',
       },
       asia: {
         title: 'Asia',
-        data: 'http://localhost:5173/api/geoTLD/zone/asia',
+        data: 'https://domains-game.vercel.app/api/geoTLD/zone/asia',
       },
       europe: {
         title: 'Europe',
-        data: 'http://localhost:5173/api/geoTLD/zone/europe',
+        data: 'https://domains-game.vercel.app/api/geoTLD/zone/europe',
       },
       spain: {
         title: 'Spain',
-        data: 'http://localhost:5173/api/geoTLD/zone/spain',
+        data: 'https://domains-game.vercel.app/api/geoTLD/zone/spain',
       },
       germany: {
         title: 'Germany',
-        data: 'http://localhost:5173/api/geoTLD/zone/germany',
+        data: 'https://domains-game.vercel.app/api/geoTLD/zone/germany',
       },
       france: {
         title: 'France',
-        data: 'http://localhost:5173/api/geoTLD/zone/france',
+        data: 'https://domains-game.vercel.app/api/geoTLD/zone/france',
       },
       northAmerica: {
         title: 'North America',
-        data: 'http://localhost:5173/api/geoTLD/zone/north-america',
+        data: 'https://domains-game.vercel.app/api/geoTLD/zone/north-america',
       },
       oceania: {
         title: 'Oceania',
-        data: 'http://localhost:5173/api/geoTLD/zone/oceania',
+        data: 'https://domains-game.vercel.app/api/geoTLD/zone/oceania',
       },
       southAmerica: {
         title: 'South America',
-        data: 'http://localhost:5173/api/geoTLD/zone/south-america',
+        data: 'https://domains-game.vercel.app/api/geoTLD/zone/south-america',
       },
     },
   },

@@ -4,113 +4,113 @@ const data = {
   title: 'Era generic top-level domains.',
   domains: {
     all: {
-      api: 'http://localhost:5173/api/icann',
+      api: 'https://domains-game.vercel.app/api/icann',
       title: 'All.',
     },
     zone: {
       a: {
         title: 'A',
-        api: 'http://localhost:5173/api/icann/zone/a',
+        api: 'https://domains-game.vercel.app/api/icann/zone/a',
       },
       b: {
         title: 'B',
-        api: 'http://localhost:5173/api/icann/zone/b',
+        api: 'https://domains-game.vercel.app/api/icann/zone/b',
       },
       c: {
         title: 'C',
-        api: 'http://localhost:5173/api/icann/zone/c',
+        api: 'https://domains-game.vercel.app/api/icann/zone/c',
       },
       d: {
         title: 'D',
-        api: 'http://localhost:5173/api/icann/zone/d',
+        api: 'https://domains-game.vercel.app/api/icann/zone/d',
       },
       e: {
         title: 'E',
-        api: 'http://localhost:5173/api/icann/zone/e',
+        api: 'https://domains-game.vercel.app/api/icann/zone/e',
       },
       f: {
         title: 'F',
-        api: 'http://localhost:5173/api/icann/zone/f',
+        api: 'https://domains-game.vercel.app/api/icann/zone/f',
       },
       g: {
         title: 'G',
-        api: 'http://localhost:5173/api/icann/zone/g',
+        api: 'https://domains-game.vercel.app/api/icann/zone/g',
       },
       h: {
         title: 'H',
-        api: 'http://localhost:5173/api/icann/zone/h',
+        api: 'https://domains-game.vercel.app/api/icann/zone/h',
       },
       i: {
         title: 'I',
-        api: 'http://localhost:5173/api/icann/zone/i',
+        api: 'https://domains-game.vercel.app/api/icann/zone/i',
       },
       j: {
         title: 'J',
-        api: 'http://localhost:5173/api/icann/zone/j',
+        api: 'https://domains-game.vercel.app/api/icann/zone/j',
       },
       k: {
         title: 'K',
-        api: 'http://localhost:5173/api/icann/zone/k',
+        api: 'https://domains-game.vercel.app/api/icann/zone/k',
       },
       l: {
         title: 'L',
-        api: 'http://localhost:5173/api/icann/zone/l',
+        api: 'https://domains-game.vercel.app/api/icann/zone/l',
       },
       m: {
         title: 'M',
-        api: 'http://localhost:5173/api/icann/zone/m',
+        api: 'https://domains-game.vercel.app/api/icann/zone/m',
       },
       n: {
         title: 'N',
-        api: 'http://localhost:5173/api/icann/zone/n',
+        api: 'https://domains-game.vercel.app/api/icann/zone/n',
       },
       o: {
         title: 'O',
-        api: 'http://localhost:5173/api/icann/zone/o',
+        api: 'https://domains-game.vercel.app/api/icann/zone/o',
       },
       p: {
         title: 'P',
-        api: 'http://localhost:5173/api/icann/zone/p',
+        api: 'https://domains-game.vercel.app/api/icann/zone/p',
       },
       q: {
         title: 'Q',
-        api: 'http://localhost:5173/api/icann/zone/q',
+        api: 'https://domains-game.vercel.app/api/icann/zone/q',
       },
       r: {
         title: 'R',
-        api: 'http://localhost:5173/api/icann/zone/r',
+        api: 'https://domains-game.vercel.app/api/icann/zone/r',
       },
       s: {
         title: 'S',
-        api: 'http://localhost:5173/api/icann/zone/s',
+        api: 'https://domains-game.vercel.app/api/icann/zone/s',
       },
       t: {
         title: 'T',
-        api: 'http://localhost:5173/api/icann/zone/t',
+        api: 'https://domains-game.vercel.app/api/icann/zone/t',
       },
       u: {
         title: 'U',
-        api: 'http://localhost:5173/api/icann/zone/u',
+        api: 'https://domains-game.vercel.app/api/icann/zone/u',
       },
       v: {
         title: 'V',
-        api: 'http://localhost:5173/api/icann/zone/v',
+        api: 'https://domains-game.vercel.app/api/icann/zone/v',
       },
       w: {
         title: 'W',
-        api: 'http://localhost:5173/api/icann/zone/w',
+        api: 'https://domains-game.vercel.app/api/icann/zone/w',
       },
       x: {
         title: 'X',
-        api: 'http://localhost:5173/api/icann/zone/x',
+        api: 'https://domains-game.vercel.app/api/icann/zone/x',
       },
       y: {
         title: 'Y',
-        api: 'http://localhost:5173/api/icann/zone/y',
+        api: 'https://domains-game.vercel.app/api/icann/zone/y',
       },
       z: {
         title: 'Z',
-        api: 'http://localhost:5173/api/icann/zone/z',
+        api: 'https://domains-game.vercel.app/api/icann/zone/z',
       },
     },
   },

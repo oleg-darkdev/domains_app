@@ -5,113 +5,113 @@ const data = {
   title: 'Brand  top-level domains.',
   domains: {
     all: {
-      api: 'http://localhost:5173/api/bTLD/',
+      api: 'https://domains-game.vercel.app/api/bTLD/',
       title: 'All.',
     },
     zone: {
       a: {
         title: 'A',
-        api: 'http://localhost:5173/api/bTLD/zone/a',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/a',
       },
       b: {
         title: 'B',
-        api: 'http://localhost:5173/api/bTLD/zone/b',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/b',
       },
       c: {
         title: 'C',
-        api: 'http://localhost:5173/api/bTLD/zone/c',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/c',
       },
       d: {
         title: 'D',
-        api: 'http://localhost:5173/api/bTLD/zone/d',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/d',
       },
       e: {
         title: 'E',
-        api: 'http://localhost:5173/api/bTLD/zone/e',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/e',
       },
       f: {
         title: 'F',
-        api: 'http://localhost:5173/api/bTLD/zone/f',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/f',
       },
       g: {
         title: 'G',
-        api: 'http://localhost:5173/api/bTLD/zone/g',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/g',
       },
       h: {
         title: 'H',
-        api: 'http://localhost:5173/api/bTLD/zone/h',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/h',
       },
       i: {
         title: 'I',
-        api: 'http://localhost:5173/api/bTLD/zone/i',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/i',
       },
       j: {
         title: 'J',
-        api: 'http://localhost:5173/api/bTLD/zone/j',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/j',
       },
       k: {
         title: 'K',
-        api: 'http://localhost:5173/api/bTLD/zone/k',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/k',
       },
       l: {
         title: 'L',
-        api: 'http://localhost:5173/api/bTLD/zone/l',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/l',
       },
       m: {
         title: 'M',
-        api: 'http://localhost:5173/api/bTLD/zone/m',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/m',
       },
       n: {
         title: 'N',
-        api: 'http://localhost:5173/api/bTLD/zone/n',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/n',
       },
       o: {
         title: 'O',
-        api: 'http://localhost:5173/api/bTLD/zone/o',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/o',
       },
       p: {
         title: 'P',
-        api: 'http://localhost:5173/api/bTLD/zone/p',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/p',
       },
       q: {
         title: 'Q',
-        api: 'http://localhost:5173/api/bTLD/zone/q',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/q',
       },
       r: {
         title: 'R',
-        api: 'http://localhost:5173/api/bTLD/zone/r',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/r',
       },
       s: {
         title: 'S',
-        api: 'http://localhost:5173/api/bTLD/zone/s',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/s',
       },
       t: {
         title: 'T',
-        api: 'http://localhost:5173/api/bTLD/zone/t',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/t',
       },
       u: {
         title: 'U',
-        api: 'http://localhost:5173/api/bTLD/zone/u',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/u',
       },
       v: {
         title: 'V',
-        api: 'http://localhost:5173/api/bTLD/zone/v',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/v',
       },
       w: {
         title: 'W',
-        api: 'http://localhost:5173/api/bTLD/zone/w',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/w',
       },
       x: {
         title: 'X',
-        api: 'http://localhost:5173/api/bTLD/zone/x',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/x',
       },
       y: {
         title: 'Y',
-        api: 'http://localhost:5173/api/bTLD/zone/y',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/y',
       },
       z: {
         title: 'Z',
-        api: 'http://localhost:5173/api/bTLD/zone/z',
+        api: 'https://domains-game.vercel.app/api/bTLD/zone/z',
       },
     },
   },

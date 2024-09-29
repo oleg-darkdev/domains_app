@@ -7,7 +7,7 @@ const data = {
   domains: {
     all: {
       title: 'All.',
-      api: 'http://localhost:5173/api/gTLD/',
+      api: 'https://domains-game.vercel.app/api/gTLD/',
     },
     zone: {},
   },

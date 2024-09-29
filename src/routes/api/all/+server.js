@@ -14,5 +14,12 @@ const allDomains = [].concat(
 );
 
 export async function GET(event) {
-	return json(allDomains)
+  return json(allDomains, {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
+  })
 }
+
+
+

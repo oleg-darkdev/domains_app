@@ -1,24 +1,38 @@
 <script>
   import { useSWR } from "sswr";
-  import { ccTLD, icann, geoTLD, bTLD } from '$lib/shared'
-
+  import { scenarios,  } from '$lib/shared'
+	import { AboutScenario, OtherScenarios, Faq } from '$lib/widgets';
+// import { onMount } from 'svelte';
 
   // console.log(ccTLD)
+  //   const  { data: otherBoardgamesData } = useSWR(
+  //       'http://localhost:5173/api/other-boardgames',
+  //   )
 
-const { data: domainsAll} = useSWR('http://localhost:5173/api/all'),
-  { data: domainsccTLD } = useSWR(ccTLD.domains.all.api),
-  { data: domainsbTLD } = useSWR(bTLD.domains.all.api),
-  { data: domainsgeoTLD } = useSWR(geoTLD.domains.all.api),
-  { data: domainsicann } = useSWR(icann.domains.all.api);
+  // otherBoardgamesList.set($otherBoardgamesData);
+  // $: result = $otherBoardgamesData;
+
+
+  // console.log(result)
+
+// const { data: domainsAll} = useSWR('http://localhost:5173/api/all'),
+//   { data: domainsccTLD } = useSWR(ccTLD.domains.all.api),
+//   { data: domainsbTLD } = useSWR(bTLD.domains.all.api),
+//   { data: domainsgeoTLD } = useSWR(geoTLD.domains.all.api),
+//   { data: domainsicann } = useSWR(icann.domains.all.api);
 </script>
 
+<!-- <h2>{$otherBoardgamesList}</h2> -->
+
+<AboutScenario scenario={scenarios[0]}/>
+<OtherScenarios {scenarios}/>
 
 <!--  (domain.id) -->
-{#if $domainsAll}
+<!-- {#if $domainsAll}
 {#each $domainsAll as domain}
     <h1>{domain.name}</h1>
   {/each}
-{/if}
+{/if} -->
 
 
 
@@ -58,3 +72,4 @@ const { data: domainsAll} = useSWR('http://localhost:5173/api/all'),
 
 
  -->
+

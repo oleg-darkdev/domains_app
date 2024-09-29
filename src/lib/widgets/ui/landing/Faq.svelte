@@ -8,7 +8,7 @@
     <div
       class="divider contact-page neutral-700"
     ></div>
-    <div class="max-w-4xl mx-auto text-center">
+    <div id="faq" class="max-w-4xl mx-auto text-center">
       <h1
         class="rodamas-font small"
       >

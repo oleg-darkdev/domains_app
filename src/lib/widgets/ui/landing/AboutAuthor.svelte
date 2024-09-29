@@ -5,7 +5,7 @@
 </script>
 
 <section class="section">
-  <div class="container-default w-container">
+  <div id='author' class="container-default w-container">
     <div class="text-center">
       <h1
         class="rodamas-font small mg-bottom-0"

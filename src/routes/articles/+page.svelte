@@ -27,7 +27,7 @@
   </section>
 
 
-  <BigNewsletterCard />
+  <!-- <BigNewsletterCard /> -->
 
   <ArticlesSection />
 </main>

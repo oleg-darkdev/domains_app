@@ -10,8 +10,9 @@
 <section class="section blog-posts">
   <div class="container-default w-container">
     <div class="latest-articles-top-wrapper">
-        <h1  class="rodamas-font small">Lorem Ipsum.</h1>
-        <h2 class="display-2">Browse our articles</h2>
+        <h1  class="rodamas-font small">OHHHHHH, TO NIE TO.</h1>
+        <!-- Browse our articles -->
+        <h2 class="display-2">Ciekawostki <br /> w artykułach!</h2>
     </div>
     <!-- <div class="blog-top-content">
       <div class="max-w-md">
@@ -49,9 +50,9 @@
       </div>
     </div>
 
-    <div class="text-center mg-top-56px">
-      <a href="/articles" class="secondary-button w-button">Browse all articles.</a>
-    </div>
+      <slot>
+        
+      </slot>
   </div>
 </section>
 

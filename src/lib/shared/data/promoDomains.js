@@ -1,0 +1,115 @@
+// import {} from '';
+
+const promoDomains = [
+  {
+    name: '.aaa',
+    entity: 'AAA.',
+    sponsor: {
+      title: '',
+      link: '',
+    },
+    administrator: {
+      title: '',
+      link: '',
+    },
+    notes: [
+      `American Automobile Association (AAA – commonly pronounced as "Triple A" but also pronounced as individual letters) is a federation of motor clubs throughout North America. AAA is a privately held not-for-profit national member association and service organization with over 60 million members[1] in the United States and Canada.`,
+    ],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: 'https://en.wikipedia.org/wiki/American_Automobile_Association',
+    logo: '/images/domains/bTLD/aaa.svg',
+    promoImg: '/images/domains/bTLD/aaa.svg',
+  },
+  {
+    name: '.ac',
+    entity: 'Ascension Island (United Kingdom)',
+    sponsor: {
+      title: '',
+      link: '',
+    },
+    administrator: {
+      title: 'Ascension Island Network Information Centre',
+      link: '/',
+    },
+    notes: [
+      `Commonly used for academic websites, such as universities.`,
+      `However, .ac is not to be confused with the official academic domains used by several countries such as the United Kingdom (.ac.uk), India (.ac.in) or Indonesia (.ac.id). `,
+      `Also used in the accounting, consulting, and air-conditioning industries.`,
+    ],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: true,
+    dnssec: true,
+    sld: true,
+    ipv6: true,
+    id: 0,
+    wikipedia: 'https://en.wikipedia.org/wiki/.ac',
+    logo: '/images/domains/ccTLD/ac.svg',
+    promoImg: '/images/domains/ccTLD/ac.svg',
+  },
+  {
+    name: '.africa',
+    entity: 'Africa.',
+    sponsor: {
+      title: '',
+      link: '',
+    },
+    administrator: {
+      title: '',
+      link: '/',
+    },
+    notes: [``],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: true,
+    dnssec: true,
+    sld: true,
+    ipv6: true,
+    id: 0,
+    wikipedia: 'https://en.wikipedia.org/wiki/.africa',
+    logo: '/images/domains/geoTLD/africa.svg',
+    promoImg: '/images/domains/geoTLD/africa.svg',
+  },
+  {
+    name: '.academy',
+    entity: 'Academy.',
+    sponsor: {
+      title: '',
+      link: '',
+    },
+    administrator: {
+      title: 'Identity Digital',
+      link: 'https://en.wikipedia.org/wiki/Identity_Digital',
+    },
+    notes: [
+      `Schools, military academies, online learning websites, PTAs and student portals, or any site created to be educational on a particular topic.`,
+    ],
+    defaultPrice: 0,
+    introduced: '',
+    stats: '',
+    multiplier: 1,
+    idn: 0,
+    dnssec: 0,
+    sld: 0,
+    ipv6: 0,
+    id: 0,
+    wikipedia: 'https://en.wikipedia.org/wiki/.academy',
+    logo: '/images/domains/icann/academy.svg',
+    promoImg: '/images/domains/icann/academy.svg',
+  },
+]
+
+
+export default promoDomains;

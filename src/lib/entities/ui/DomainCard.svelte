@@ -1,8 +1,12 @@
 <script>
+  import {selectedDomain} from '$lib/shared';
+
+  const updSelectedDomain = (domainData) =>	selectedDomain.set(domainData);
+
   export let domain;
 </script>
 
-<a role="listitem" href='/app' target="_blank" class="nft-simple-card w-inline-block">
+<button role="listitem" on:click={()=> updSelectedDomain(domain)} class="nft-simple-card w-inline-block">
   <div class="nft-image-wrapper">
     <div class="price-wrapper">
       <div class="price-text">{domain.entity}</div>
@@ -23,7 +27,7 @@
       </div>
     </div>
   </div>
-</a>
+</button>
 
 
 <style>

@@ -1,5 +1,5 @@
 <script>
-	import { GrayBtn } from '$lib/shared';
+	import { SecondaryBtn } from '$lib/shared';
 	import { HeaderLanding, Hero, AboutAuthorLanding, Scenarios, Roadmap, Faq, ArticlesSection } from '$lib/widgets';
   // import {  } from '$lib/entities'
 
@@ -22,7 +22,8 @@
   <Roadmap />
 
   <ArticlesSection>
-    <GrayBtn dataBtn={{text: 'Browse all articles.', link: 'articles'}}/>
+    <!-- Browse all articles. -->
+    <SecondaryBtn dataBtn={{text: 'Wszystkie artykuły.', link: 'articles'}}/>
   </ArticlesSection>
 
   <AboutAuthorLanding />

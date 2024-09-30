@@ -7,18 +7,16 @@ import faqData from './data/faqData'
 import otherBoardgames from './data/otherBoardgames'
 import articlesList from './data/articlesList'
 import promoDomains from './data/promoDomains'
-// import otherBoardgames from './data/otherBoardgames'
+import socialLinks from './data/socialLinks'
 // import otherBoardgames from './data/otherBoardgames'
 // import { otherBoardgamesList } from './data/store'
-
-
 
 // ui
 import Blockquote from './ui/Blockquote.svelte'
 import ArticleDivider from './ui/ArticleDivider.svelte'
 import MediumImgBlock from './ui/MediumImgBlock.svelte'
-import GrayBtn from './ui/GrayBtn.svelte'
-// import roadmap from './ui/roadmap.svelte'
+import SecondaryBtn from './ui/SecondaryBtn.svelte'
+import PrimaryBtn from './ui/PrimaryBtn.svelte'
 
 // =========================== API
 // ======================== bTLD
@@ -125,7 +123,7 @@ export {
   Blockquote,
   ArticleDivider,
   MediumImgBlock,
-  GrayBtn,
+  SecondaryBtn,
 
   // data
   scenarios,
@@ -134,6 +132,10 @@ export {
   team,
   faqData,
   otherBoardgames,
+  socialLinks,
+
+
+  
   // otherBoardgamesList,
   articlesList,
   promoDomains,

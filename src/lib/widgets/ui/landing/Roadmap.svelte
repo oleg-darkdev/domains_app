@@ -3,14 +3,15 @@
   import { roadmap } from '$lib/shared';
 </script>
 
-<section class="section">
+<section class="section mb-40">
   <div class="container-default w-container">
-    <div class="max-width-786px text-center">
+    <div class="max-w-4xl text-center">
       <h1 class="rodamas-font small">Roadmap</h1>
       <h2 class="display-2">Take a look at <span><img src="/images/logo_color.svg" class='h-12' alt=""></span> roadmap</h2>
       <p>
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.      </p>
     </div>
+
     <div id='roadmap' class="roadmap-wrapper">
       <div class="roadmap-progress-wrapper">
         <div class="progress-circle"></div>
@@ -54,7 +55,8 @@
 .progress-line {
   width: 4px;
   height: 100%;
-  min-height: 261px;
+  /* 261px */
+  min-height: 500px;
   margin-top: 24px;
   margin-bottom: 24px;
   background-color: #7a5ca3;
@@ -93,6 +95,15 @@
   .progress-circle {
     border-width: 3px;
   }
+
+  .roadmap-progress-wrapper {
+    position: absolute;
+    left: 16px;
+    right: auto;
+    margin-top: 98px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
 
 
@@ -110,10 +121,19 @@
   .progress-line {
     width: 3px;
     min-height: 158px;
+    min-height: 500px;
   }
 
   .roadmap-progress-wrapper {
     left: 16px;
+  }
+  .roadmap-progress-wrapper {
+    position: absolute;
+    left: 16px;
+    right: auto;
+    margin-top: 98px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 </style>

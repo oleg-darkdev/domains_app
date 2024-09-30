@@ -6,4 +6,5 @@ export async function GET(event) {
     headers: {
       'Access-Control-Allow-Origin': '*',
     },
-  })}
+  })
+}

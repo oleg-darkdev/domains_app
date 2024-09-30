@@ -2,6 +2,8 @@ const data = {
   abbr: 'tTLD.',
   //  (tTLD)
   title: 'Test top-level domains.',
+  allDomainsCounter: 0,
+
   domains: {
     all: {
       title: 'All.',

@@ -2,6 +2,8 @@ const data = {
   abbr: 'sTLD.',
   //  (sTLD)
   title: 'Sponsored top-level domains.',
+  allDomainsCounter: 0,
+
   domains: {
     all: {
       title: 'All.',

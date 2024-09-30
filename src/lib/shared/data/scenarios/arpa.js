@@ -2,6 +2,7 @@ const data = {
   abbr: 'ARPA.',
   //  (ARPA)
   title: 'infrastructure top-level domain.',
+  allDomainsCounter: 0,
   shortDesc:
     'The domain name arpa is a top-level domain (TLD) in the Domain Name System (DNS) of the Internet.',
   domains: {

@@ -2,6 +2,8 @@ const data = {
   abbr: 'ICANN.',
   // ICANN-
   title: 'Era generic top-level domains.',
+  allDomainsCounter: 546,
+
   domains: {
     all: {
       api: 'https://domains-game.vercel.app/api/icann',

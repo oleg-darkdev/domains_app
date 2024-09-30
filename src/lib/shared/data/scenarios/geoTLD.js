@@ -2,6 +2,8 @@ const data = {
   abbr: 'geoTLD.',
   //  (geoTLD)
   title: 'Geographic top-level domains.',
+  allDomainsCounter: 69,
+
   domains: {
     all: {
       title: 'All.',

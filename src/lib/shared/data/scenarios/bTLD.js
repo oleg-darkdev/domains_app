@@ -2,7 +2,8 @@ const data = {
   abbr: 'bTLD.',
   //  (bTLD)
   // and corporate
-  title: 'Brand  top-level domains.',
+  title: 'Brand top-level domains.',
+  allDomainsCounter: 415,
   domains: {
     all: {
       api: 'https://domains-game.vercel.app/api/bTLD/',

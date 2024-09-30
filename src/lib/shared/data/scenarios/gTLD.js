@@ -2,6 +2,8 @@ const data = {
   abbr: 'gTLD.',
   //  (gTLDs)
   title: 'Generic top-level domains.',
+  allDomainsCounter: 0,
+
   shortDesc:
     'Generic top-level domains (gTLDs) are one of the categories of top-level domains (TLDs) maintained by the Internet Assigned Numbers Authority (IANA) for use in the Domain Name System of the Internet.',
   domains: {

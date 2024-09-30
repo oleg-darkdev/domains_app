@@ -2,6 +2,8 @@ const data = {
   abbr: 'grTLD.',
   //  (grTLD)
   title: 'Generic-restricted top-level domains.',
+  allDomainsCounter: 0,
+
   domains: {
     all: {
       title: 'All.',

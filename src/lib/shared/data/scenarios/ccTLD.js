@@ -2,6 +2,8 @@ const data = {
   abbr: 'ccTLD.',
   //  (ccTLD)
   title: 'Country code top-level domains.',
+  allDomainsCounter: 247,
+
   domains: {
     all: {
       api: 'https://domains-game.vercel.app/api/ccTLD',

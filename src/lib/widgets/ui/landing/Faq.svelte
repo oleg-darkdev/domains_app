@@ -12,12 +12,14 @@
       <h1
         class="rodamas-font small"
       >
-        FAQs
+        F.A.Q`s
       </h1>
+      <!-- Frequently Asked Questions -->
       <h2
         class="display-2"
       >
-        Frequently Asked Questions
+      Odpowiedzi na najważniejsze pytania.
+
       </h2>
       <p
         class="mg-top-16px mg-bottom-48px"

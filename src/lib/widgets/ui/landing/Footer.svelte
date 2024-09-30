@@ -1,13 +1,16 @@
 <script>
   import { navigation, scenarios } from '$lib/shared';
   import { ContactBlock, SmallNewsletterCard} from '$lib/entities';
+  import { SecondaryBtn } from '$lib/shared';
 
   export let otherBoardgames;
 </script>
 
 <footer class="footer">
   <div class="container-default w-container">
-    <ContactBlock />
+    <ContactBlock>
+    <SecondaryBtn dataBtn={{text: 'Get in Touch!', link: 'https://darkdev-cv.vercel.app/'}}/>
+    </ContactBlock>
 
     <div class="footer-middle">
       <div class="split-content">
@@ -25,7 +28,7 @@
             </ul>
           </div>
 
-          <div id="w-node-f433562b-d67f-0da5-6531-43714c8bd3a1-4c8bd36b" data-w-id="f433562b-d67f-0da5-6531-43714c8bd3a1" class="menu-wrapper-2">
+          <div class="menu-wrapper-2">
             <h3>Scenarios</h3>
             <ul role="list" class="nav-menu-list-wrapper">
               {#each scenarios as {title, abbr} }
@@ -37,7 +40,7 @@
               {/each}
             </ul>
           </div>
-          <div id="w-node-f433562b-d67f-0da5-6531-43714c8bd3b1-4c8bd36b" data-w-id="f433562b-d67f-0da5-6531-43714c8bd3b1" class="menu-wrapper-2">
+          <div class="menu-wrapper-2">
             <h3>Other boardgames.</h3>
             <ul role="list" class="nav-menu-list-wrapper">
               {#each otherBoardgames as {title, icon, link}}
@@ -75,5 +78,27 @@
 
 
 <style>
+.footer-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 83px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer {
+  padding-top: 82px;
+  border-top: 1px solid #2e2e2e;
+}
+
+
 
 </style>

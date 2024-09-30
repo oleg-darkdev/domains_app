@@ -7,8 +7,9 @@
     <div class="split-content">
       <img src="/images/email.svg" loading="lazy" alt="Subscribe" class="subscribe-card-image">
     </div>
+    <!-- Stay on the loop -->
     <div class="split-content right-subscribe-card">
-      <h3>Stay on the loop</h3>
+      <h3>Pozostań z grami.</h3>
       <p>
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
       </p>

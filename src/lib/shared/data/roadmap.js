@@ -1,27 +1,46 @@
 const roadmap = [
   {
-    title: '',
+    title: 'Lorem Ipsum has been',
     phaseNumber: 1,
-    shortDesc: '',
-    features: [``, ``, ``, ``],
+    shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+    features: [
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+    ],
   },
   {
-    title: '',
+    title: 'Lorem Ipsum has been',
     phaseNumber: 2,
-    shortDesc: '',
-    features: [``, ``, ``, ``],
+    shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+    features: [
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+    ],
   },
   {
-    title: '',
+    title: 'Lorem Ipsum has been',
     phaseNumber: 3,
-    shortDesc: '',
-    features: [``, ``, ``, ``],
+    shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+    features: [
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+    ],
   },
   {
-    title: '',
+    title: 'Lorem Ipsum has been',
     phaseNumber: 4,
-    shortDesc: '',
-    features: [``, ``, ``, ``],
+    shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+    features: [
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+      `Lorem Ipsum has been`,
+    ],
   },
 ]
 

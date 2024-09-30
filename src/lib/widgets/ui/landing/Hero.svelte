@@ -19,7 +19,9 @@
       <div class="nft-collection-list w-dyn-list">
         <div role="list" class="grid-4-columns w-dyn-items">
           {#each promoDomains as domain}
+          <a href='/app' target="_blank" >
             <DomainCard {domain}/>
+          </a>
           {/each}
 
         </div>

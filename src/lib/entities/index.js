@@ -1,6 +1,9 @@
 // app
 import OtherScenarioCardApp from './ui/app/OtherScenarioCardApp.svelte'
-// import ScenarioCard from './ui/app/ScenarioCard.svelte'
+import DomainDetailsCard from './ui/app/DomainDetailsCard.svelte'
+import DomainPropertiesCard from './ui/app/DomainPropertiesCard.svelte'
+import DomainInfoCard from './ui/app/DomainInfoCard.svelte'
+import DomainPromoCard from './ui/app/DomainPromoCard.svelte'
 // import ScenarioCard from './ui/app/ScenarioCard.svelte'
 
 // landing
@@ -23,14 +26,26 @@ import DomainCard from './ui/DomainCard.svelte'
 
 
 export {
+  // universal
+  DomainCard,
+
+  // app
+  DomainDetailsCard,
+  OtherScenarioCardApp,
+  DomainPropertiesCard,
+  DomainInfoCard,
+  DomainPromoCard,
+  // DomainPropertiesCard,
+  // DomainPropertiesCard,
+  // DomainPropertiesCard,
+
+  // landing
   ScenarioCard,
   ContactBlock,
-  DomainCard,
   BigNewsletterCard,
   RoadmapCard,
   BigTeamMemberCard,
   SmallTeamMemberCard,
-  OtherScenarioCardApp,
   FaqCard,
   OtherBoardgameCard,
   FulWidthBanner,

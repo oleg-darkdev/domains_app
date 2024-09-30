@@ -15,14 +15,19 @@ import ArticlesSection from './ui/landing/ArticlesSection.svelte'
 // app
 import AboutScenario from './ui/app/AboutScenario.svelte'
 import OtherScenarios from './ui/app/OtherScenarios.svelte'
-// import Faq from './ui/landing/Faq.svelte'
-// import Faq from './ui/landing/Faq.svelte'
+import DomainsList from './ui/app/DomainsList.svelte'
+import DomainDescription from './ui/app/DomainDescription.svelte'
+// import DomainsList from './ui/app/DomainsList.svelte'
+// import DomainsList from './ui/app/DomainsList.svelte'
+// import DomainsList from './ui/app/DomainsList.svelte'
 
 
 export {
   ArticlesSection,
   HeaderLanding,
   OtherScenarios,
+  DomainsList,
+  DomainDescription,
   Hero,
   AboutAuthorLanding,
   Scenarios,

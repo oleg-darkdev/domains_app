@@ -8,8 +8,12 @@ import otherBoardgames from './data/otherBoardgames'
 import articlesList from './data/articlesList'
 import promoDomains from './data/promoDomains'
 import socialLinks from './data/socialLinks'
-// import otherBoardgames from './data/otherBoardgames'
-// import { otherBoardgamesList } from './data/store'
+// import selectedDomain from './data/selectedDomain'
+// import selectedDomain from './data/selectedDomain'
+// import selectedDomain from './data/selectedDomain'
+// import selectedDomain from './data/selectedDomain'
+// import selectedDomain from './data/selectedDomain'
+import { otherBoardgamesList, selectedDomain } from './data/store'
 
 // ui
 import Blockquote from './ui/Blockquote.svelte'
@@ -133,9 +137,10 @@ export {
   faqData,
   otherBoardgames,
   socialLinks,
+  selectedDomain,
 
 
-  
+
   // otherBoardgamesList,
   articlesList,
   promoDomains,

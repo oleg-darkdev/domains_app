@@ -41,7 +41,7 @@
             </ul>
           </div>
           <div class="menu-wrapper-2">
-            <h3>Other boardgames.</h3>
+            <!-- <h3>Other boardgames.</h3>
             <ul role="list" class="nav-menu-list-wrapper">
               {#each otherBoardgames as {title, icon, link}}
             <li class="nav-menu-list-item">
@@ -52,7 +52,7 @@
                 <div>{title}</div>
               </a>
             </li>
-            {/each}
+            {/each} -->
 
               <!-- <li class="nav-menu-list-item">
                 <a href="https://twitter.com" target="_blank" class="footer-link social w-inline-block">
@@ -61,8 +61,8 @@
                 </a>
               </li> -->
 
-            </ul>
-          </div>
+            <!-- </ul>
+          </div> -->
         </div>
       </div>
       <div class="split-content">

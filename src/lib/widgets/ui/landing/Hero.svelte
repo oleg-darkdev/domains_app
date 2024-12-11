@@ -6,14 +6,20 @@
 <section class="section hero">
   <div class="container-default w-container">
     <div class="hero-top-content-wrapper">
-      <h1  class="rodamas-font">DOMAINS.</h1>
+      <h1  class="rodamas-font">DOMAINS</h1>
       <h1   class="mg-top-24px">
-        Lorem Ipsum has been the industry's.
+        The project focuses on web domains.
       </h1>
       <div class="max-width-894px">
         <p>
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.        </p>
-      </div>
+<!--          Уникальный исследовательский проект объединяющий обучение, исследование и игру. Он создан для того, чтобы познакомить пользователей с миром интернет-доменов, их историей, структурой, управлением и современными тенденциями.  
+ -->
+A unique research project that combines education, exploration, and gameplay. It is designed to introduce users to the world of internet domains, their history, structure, management, and modern trends.
+        </p>
+        <p>
+The project is presented in the format of an educational board game complemented by an interactive web application.
+        </p>    
+        </div>
     </div>
     <div class="nft-collecion-wrapper">
       <div class="nft-collection-list w-dyn-list">

@@ -15,7 +15,7 @@
         data-w-id="bb4a5c84-142f-a102-ff4f-3c221cb879ee"
         class="mg-top-56px-2 mg-bottom-48px"
       >
-        What are CyberMonkeys?
+        What are Lorem ipsum?
       </h1>
     </div>
     <div class="w-layout-grid grid-about">

@@ -10,7 +10,7 @@
   const { data: otherBoardgamesData } = useSWR(
       'https://domains-game.vercel.app/api/other-boardgames',
   )
-  	import { Footer, OtherBoardgames} from '$lib/widgets';
+  import { Footer, OtherBoardgames} from '$lib/widgets';
 
 </script>
 
@@ -19,7 +19,7 @@
 	<slot />
 
   {#if $otherBoardgamesData}
-    <OtherBoardgames otherBoardgames={$otherBoardgamesData}/>
+    <!-- <OtherBoardgames otherBoardgames={$otherBoardgamesData}/> -->
 
     <Footer otherBoardgames={$otherBoardgamesData}/>
   {/if}

@@ -8,12 +8,13 @@
     <div class="max-w-4xl text-center">
       <h1 class="rodamas-font small">Roadmap</h1>
       <h2 class="display-2">Take a look at <span><img src="/images/logo_color.svg" class='h-12' alt=""></span> roadmap</h2>
-      <p>
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.      </p>
+
     </div>
 
     <div id='roadmap' class="roadmap-wrapper">
       <div class="roadmap-progress-wrapper">
+        <div class="progress-circle"></div>
+        <div class="progress-line"></div>
         <div class="progress-circle"></div>
         <div class="progress-line"></div>
         <div class="progress-circle"></div>
@@ -34,6 +35,11 @@
         <div class="grid-hide-block"></div>
 
         <RoadmapCard point={roadmap[3]}/>
+
+                <div class="grid-hide-block"></div>
+        <div class="grid-hide-block"></div>
+
+        <RoadmapCard point={roadmap[4]}/>
       </div>
     </div>
   </div>

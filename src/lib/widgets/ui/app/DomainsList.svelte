@@ -1,11 +1,12 @@
 <script>
   import { DomainCard } from '$lib/entities';
+  import { selectedDomain } from '$lib/shared';
   import { useSWR } from "sswr";
 
   export let scenarios;
 
 
-const { data: domainsAll} = useSWR('https://domains-game.vercel.app/api/all'),
+const { data: domainsAll} = useSWR('/api/all'),
   { data: domainsccTLD } = useSWR(scenarios[0].domains.all.api),
   { data: domainsbTLD } = useSWR(scenarios[3].domains.all.api);
 

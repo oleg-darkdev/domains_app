@@ -6,11 +6,7 @@
 	// onMount(() => {
 	// 	AOS.init();
 	// });
-  import { useSWR } from 'sswr'
-  const { data: otherBoardgamesData } = useSWR(
-      'https://domains-game.vercel.app/api/other-boardgames',
-  )
-  import { Footer, OtherBoardgames} from '$lib/widgets';
+
 
 </script>
 
@@ -18,14 +14,11 @@
 <div class="overflow-hidden page-wrapper">
 	<slot />
 
-  {#if $otherBoardgamesData}
-    <!-- <OtherBoardgames otherBoardgames={$otherBoardgamesData}/> -->
 
-    <Footer otherBoardgames={$otherBoardgamesData}/>
-  {/if}
 </div>
 
 <style>
+	
 </style>
 
 

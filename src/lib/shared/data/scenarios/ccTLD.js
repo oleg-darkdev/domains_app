@@ -6,113 +6,113 @@ const data = {
 
   domains: {
     all: {
-      api: 'https://domains-game.vercel.app/api/ccTLD',
+      api: '/api/ccTLD',
       title: 'All.',
     },
     zone: {
       a: {
         title: 'A',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/a',
+        api: '/api/ccTLD/zone/a',
       },
       b: {
         title: 'B',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/b',
+        api: '/api/ccTLD/zone/b',
       },
       c: {
         title: 'C',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/c',
+        api: '/api/ccTLD/zone/c',
       },
       d: {
         title: 'D',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/d',
+        api: '/api/ccTLD/zone/d',
       },
       e: {
         title: 'E',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/e',
+        api: '/api/ccTLD/zone/e',
       },
       f: {
         title: 'F',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/f',
+        api: '/api/ccTLD/zone/f',
       },
       g: {
         title: 'G',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/g',
+        api: '/api/ccTLD/zone/g',
       },
       h: {
         title: 'H',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/h',
+        api: '/api/ccTLD/zone/h',
       },
       i: {
         title: 'I',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/i',
+        api: '/api/ccTLD/zone/i',
       },
       j: {
         title: 'J',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/j',
+        api: '/api/ccTLD/zone/j',
       },
       k: {
         title: 'K',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/k',
+        api: '/api/ccTLD/zone/k',
       },
       l: {
         title: 'L',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/l',
+        api: '/api/ccTLD/zone/l',
       },
       m: {
         title: 'M',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/m',
+        api: '/api/ccTLD/zone/m',
       },
       n: {
         title: 'N',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/n',
+        api: '/api/ccTLD/zone/n',
       },
       o: {
         title: 'O',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/o',
+        api: '/api/ccTLD/zone/o',
       },
       p: {
         title: 'P',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/p',
+        api: '/api/ccTLD/zone/p',
       },
       q: {
         title: 'Q',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/q',
+        api: '/api/ccTLD/zone/q',
       },
       r: {
         title: 'R',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/r',
+        api: '/api/ccTLD/zone/r',
       },
       s: {
         title: 'S',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/s',
+        api: '/api/ccTLD/zone/s',
       },
       t: {
         title: 'T',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/t',
+        api: '/api/ccTLD/zone/t',
       },
       u: {
         title: 'U',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/u',
+        api: '/api/ccTLD/zone/u',
       },
       v: {
         title: 'V',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/v',
+        api: '/api/ccTLD/zone/v',
       },
       w: {
         title: 'W',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/w',
+        api: '/api/ccTLD/zone/w',
       },
       x: {
         title: 'X',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/x',
+        api: '/api/ccTLD/zone/x',
       },
       y: {
         title: 'Y',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/y',
+        api: '/api/ccTLD/zone/y',
       },
       z: {
         title: 'Z',
-        api: 'https://domains-game.vercel.app/api/ccTLD/zone/z',
+        api: '/api/ccTLD/zone/z',
       },
     },
   },

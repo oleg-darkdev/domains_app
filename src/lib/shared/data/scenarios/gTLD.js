@@ -9,7 +9,7 @@ const data = {
   domains: {
     all: {
       title: 'All.',
-      api: 'https://domains-game.vercel.app/api/gTLD/',
+      api: '/api/gTLD/',
     },
     zone: {},
   },

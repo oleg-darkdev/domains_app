@@ -6,113 +6,113 @@ const data = {
 
   domains: {
     all: {
-      api: 'https://domains-game.vercel.app/api/icann',
+      api: '/api/icann',
       title: 'All.',
     },
     zone: {
       a: {
         title: 'A',
-        api: 'https://domains-game.vercel.app/api/icann/zone/a',
+        api: '/api/icann/zone/a',
       },
       b: {
         title: 'B',
-        api: 'https://domains-game.vercel.app/api/icann/zone/b',
+        api: '/api/icann/zone/b',
       },
       c: {
         title: 'C',
-        api: 'https://domains-game.vercel.app/api/icann/zone/c',
+        api: '/api/icann/zone/c',
       },
       d: {
         title: 'D',
-        api: 'https://domains-game.vercel.app/api/icann/zone/d',
+        api: '/api/icann/zone/d',
       },
       e: {
         title: 'E',
-        api: 'https://domains-game.vercel.app/api/icann/zone/e',
+        api: '/api/icann/zone/e',
       },
       f: {
         title: 'F',
-        api: 'https://domains-game.vercel.app/api/icann/zone/f',
+        api: '/api/icann/zone/f',
       },
       g: {
         title: 'G',
-        api: 'https://domains-game.vercel.app/api/icann/zone/g',
+        api: '/api/icann/zone/g',
       },
       h: {
         title: 'H',
-        api: 'https://domains-game.vercel.app/api/icann/zone/h',
+        api: '/api/icann/zone/h',
       },
       i: {
         title: 'I',
-        api: 'https://domains-game.vercel.app/api/icann/zone/i',
+        api: '/api/icann/zone/i',
       },
       j: {
         title: 'J',
-        api: 'https://domains-game.vercel.app/api/icann/zone/j',
+        api: '/api/icann/zone/j',
       },
       k: {
         title: 'K',
-        api: 'https://domains-game.vercel.app/api/icann/zone/k',
+        api: '/api/icann/zone/k',
       },
       l: {
         title: 'L',
-        api: 'https://domains-game.vercel.app/api/icann/zone/l',
+        api: '/api/icann/zone/l',
       },
       m: {
         title: 'M',
-        api: 'https://domains-game.vercel.app/api/icann/zone/m',
+        api: '/api/icann/zone/m',
       },
       n: {
         title: 'N',
-        api: 'https://domains-game.vercel.app/api/icann/zone/n',
+        api: '/api/icann/zone/n',
       },
       o: {
         title: 'O',
-        api: 'https://domains-game.vercel.app/api/icann/zone/o',
+        api: '/api/icann/zone/o',
       },
       p: {
         title: 'P',
-        api: 'https://domains-game.vercel.app/api/icann/zone/p',
+        api: '/api/icann/zone/p',
       },
       q: {
         title: 'Q',
-        api: 'https://domains-game.vercel.app/api/icann/zone/q',
+        api: '/api/icann/zone/q',
       },
       r: {
         title: 'R',
-        api: 'https://domains-game.vercel.app/api/icann/zone/r',
+        api: '/api/icann/zone/r',
       },
       s: {
         title: 'S',
-        api: 'https://domains-game.vercel.app/api/icann/zone/s',
+        api: '/api/icann/zone/s',
       },
       t: {
         title: 'T',
-        api: 'https://domains-game.vercel.app/api/icann/zone/t',
+        api: '/api/icann/zone/t',
       },
       u: {
         title: 'U',
-        api: 'https://domains-game.vercel.app/api/icann/zone/u',
+        api: '/api/icann/zone/u',
       },
       v: {
         title: 'V',
-        api: 'https://domains-game.vercel.app/api/icann/zone/v',
+        api: '/api/icann/zone/v',
       },
       w: {
         title: 'W',
-        api: 'https://domains-game.vercel.app/api/icann/zone/w',
+        api: '/api/icann/zone/w',
       },
       x: {
         title: 'X',
-        api: 'https://domains-game.vercel.app/api/icann/zone/x',
+        api: '/api/icann/zone/x',
       },
       y: {
         title: 'Y',
-        api: 'https://domains-game.vercel.app/api/icann/zone/y',
+        api: '/api/icann/zone/y',
       },
       z: {
         title: 'Z',
-        api: 'https://domains-game.vercel.app/api/icann/zone/z',
+        api: '/api/icann/zone/z',
       },
     },
   },

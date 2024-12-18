@@ -6,113 +6,113 @@ const data = {
   allDomainsCounter: 415,
   domains: {
     all: {
-      api: 'https://domains-game.vercel.app/api/bTLD/',
+      api: '/api/bTLD/',
       title: 'All.',
     },
     zone: {
       a: {
         title: 'A',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/a',
+        api: '/api/bTLD/zone/a',
       },
       b: {
         title: 'B',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/b',
+        api: '/api/bTLD/zone/b',
       },
       c: {
         title: 'C',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/c',
+        api: '/api/bTLD/zone/c',
       },
       d: {
         title: 'D',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/d',
+        api: '/api/bTLD/zone/d',
       },
       e: {
         title: 'E',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/e',
+        api: '/api/bTLD/zone/e',
       },
       f: {
         title: 'F',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/f',
+        api: '/api/bTLD/zone/f',
       },
       g: {
         title: 'G',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/g',
+        api: '/api/bTLD/zone/g',
       },
       h: {
         title: 'H',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/h',
+        api: '/api/bTLD/zone/h',
       },
       i: {
         title: 'I',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/i',
+        api: '/api/bTLD/zone/i',
       },
       j: {
         title: 'J',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/j',
+        api: '/api/bTLD/zone/j',
       },
       k: {
         title: 'K',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/k',
+        api: '/api/bTLD/zone/k',
       },
       l: {
         title: 'L',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/l',
+        api: '/api/bTLD/zone/l',
       },
       m: {
         title: 'M',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/m',
+        api: '/api/bTLD/zone/m',
       },
       n: {
         title: 'N',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/n',
+        api: '/api/bTLD/zone/n',
       },
       o: {
         title: 'O',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/o',
+        api: '/api/bTLD/zone/o',
       },
       p: {
         title: 'P',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/p',
+        api: '/api/bTLD/zone/p',
       },
       q: {
         title: 'Q',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/q',
+        api: '/api/bTLD/zone/q',
       },
       r: {
         title: 'R',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/r',
+        api: '/api/bTLD/zone/r',
       },
       s: {
         title: 'S',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/s',
+        api: '/api/bTLD/zone/s',
       },
       t: {
         title: 'T',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/t',
+        api: '/api/bTLD/zone/t',
       },
       u: {
         title: 'U',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/u',
+        api: '/api/bTLD/zone/u',
       },
       v: {
         title: 'V',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/v',
+        api: '/api/bTLD/zone/v',
       },
       w: {
         title: 'W',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/w',
+        api: '/api/bTLD/zone/w',
       },
       x: {
         title: 'X',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/x',
+        api: '/api/bTLD/zone/x',
       },
       y: {
         title: 'Y',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/y',
+        api: '/api/bTLD/zone/y',
       },
       z: {
         title: 'Z',
-        api: 'https://domains-game.vercel.app/api/bTLD/zone/z',
+        api: '/api/bTLD/zone/z',
       },
     },
   },

@@ -8,7 +8,7 @@ const data = {
   domains: {
     all: {
       title: 'All.',
-      api: 'https://domains-game.vercel.app/api/arpa/',
+      api: '/api/arpa/',
     },
     zone: {},
   },

@@ -52,6 +52,17 @@
       <DomainPromoCard {name} {wikipedia} {entity} {id} />
     </div>
   </div>
+  <div
+          class="w-pagination-wrapper pagination"
+        >
+          <button
+            on:click={()=> $selectedDomain = 0}
+            class="w-pagination-next primary-button"
+            ><div class="w-inline-block">
+              Do listy domen
+            </div>
+          </button>
+        </div>
 </section>
 
 

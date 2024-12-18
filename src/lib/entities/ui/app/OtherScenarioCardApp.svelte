@@ -1,8 +1,14 @@
 <script>
+  import { selectedScenario, actualScreen } from '$lib/shared';
+
   export let scenario;
 </script>
 
-<a
+<button on:click={()=> {
+  $selectedScenario = scenario; 
+  $actualScreen = 1;
+  
+}}
   href=""
   target="_blank"
   class="card partner rounded-none my-2 w-inline-block"
@@ -18,7 +24,7 @@
     <div class="button-arrow-wrapper partner">
       <div class="icon-font right-up-arrow">�&nbsp;�</div>
     </div>
-  </div></a
+  </div></button
 >
 
 

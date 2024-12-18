@@ -6,7 +6,7 @@
   export let domain;
 </script>
 
-<button role="listitem" on:click={()=> updSelectedDomain(domain)} class="nft-simple-card w-inline-block">
+<button role="listitem" on:click={()=>  updSelectedDomain(domain)} class="nft-simple-card w-inline-block">
   <div class="nft-image-wrapper">
     <div class="price-wrapper">
       <div class="price-text">{domain.entity}</div>

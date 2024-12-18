@@ -13,7 +13,13 @@ import socialLinks from './data/socialLinks'
 // import selectedDomain from './data/selectedDomain'
 // import selectedDomain from './data/selectedDomain'
 // import selectedDomain from './data/selectedDomain'
-import { otherBoardgamesList, selectedDomain } from './data/store'
+import {
+  otherBoardgamesList,
+  filteredDomains,
+  selectedDomain,
+  actualScreen,
+  selectedScenario,
+} from './data/store'
 
 // ui
 import Blockquote from './ui/Blockquote.svelte'
@@ -138,12 +144,13 @@ export {
   otherBoardgames,
   socialLinks,
   selectedDomain,
-
-
+selectedScenario,
+actualScreen,
 
   // otherBoardgamesList,
   articlesList,
   promoDomains,
+  filteredDomains,
 
   //============================== API
   // bTLD

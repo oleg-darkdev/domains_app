@@ -17,7 +17,7 @@ import AboutScenario from './ui/app/AboutScenario.svelte'
 import OtherScenarios from './ui/app/OtherScenarios.svelte'
 import DomainsList from './ui/app/DomainsList.svelte'
 import DomainDescription from './ui/app/DomainDescription.svelte'
-// import DomainsList from './ui/app/DomainsList.svelte'
+import DomainsListForCaregory from './ui/app/DomainsListForCaregory.svelte'
 // import DomainsList from './ui/app/DomainsList.svelte'
 // import DomainsList from './ui/app/DomainsList.svelte'
 
@@ -28,6 +28,7 @@ export {
   OtherScenarios,
   DomainsList,
   DomainDescription,
+  DomainsListForCaregory,
   Hero,
   AboutAuthorLanding,
   Scenarios,

@@ -4,7 +4,7 @@ import DomainDetailsCard from './ui/app/DomainDetailsCard.svelte'
 import DomainPropertiesCard from './ui/app/DomainPropertiesCard.svelte'
 import DomainInfoCard from './ui/app/DomainInfoCard.svelte'
 import DomainPromoCard from './ui/app/DomainPromoCard.svelte'
-// import ScenarioCard from './ui/app/ScenarioCard.svelte'
+import FooterNavApp from './ui/app/FooterNav.svelte'
 
 // landing
 import ScenarioCard from './ui/landing/ScenarioCard.svelte';
@@ -35,6 +35,7 @@ export {
   DomainPropertiesCard,
   DomainInfoCard,
   DomainPromoCard,
+  FooterNavApp,
   // DomainPropertiesCard,
   // DomainPropertiesCard,
   // DomainPropertiesCard,

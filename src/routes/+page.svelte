@@ -2,7 +2,11 @@
 	import { SecondaryBtn } from '$lib/shared';
 	import { HeaderLanding, Hero, AboutAuthorLanding, Scenarios, Roadmap, Faq, ArticlesSection } from '$lib/widgets';
   // import {  } from '$lib/entities'
-
+  import { useSWR } from 'sswr'
+  const { data: otherBoardgamesData } = useSWR(
+      '/api/other-boardgames',
+  )
+  import { Footer, OtherBoardgames} from '$lib/widgets';
 
 </script>
 
@@ -30,6 +34,11 @@
 
   <Faq />
 </main>
+  {#if $otherBoardgamesData}
+    <!-- <OtherBoardgames otherBoardgames={$otherBoardgamesData}/> -->
+
+    <Footer otherBoardgames={$otherBoardgamesData}/>
+  {/if}
 
 
 

@@ -1,5 +1,5 @@
 <script>
-  export let scenario;
+  export let selectedScenario;
 </script>
 
 <section class="section hero about">
@@ -9,7 +9,7 @@
         data-w-id="bb4a5c84-142f-a102-ff4f-3c221cb879ec"
         class="rodamas-font"
       >
-        About scenario
+        About selectedScenario
       </h1>
       <h1
         data-w-id="bb4a5c84-142f-a102-ff4f-3c221cb879ee"
@@ -20,14 +20,14 @@
     </div>
     <div class="w-layout-grid grid-about">
       <img
-        src="{scenario.gallery[0]}"
+        src="{selectedScenario.gallery[0]}"
         loading="lazy"
       /><img
-        src="{scenario.gallery[1]}"
+        src="{selectedScenario.gallery[1]}"
         loading="lazy"
         class="mg-top-124px"
       /><img
-        src="{scenario.gallery[2]}"
+        src="{selectedScenario.gallery[2]}"
         loading="lazy"
 
       />

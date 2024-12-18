@@ -1,5 +1,6 @@
 <script>
   import { OtherScenarioCardApp } from '$lib/entities';
+  
 
   export let scenarios;
 </script>

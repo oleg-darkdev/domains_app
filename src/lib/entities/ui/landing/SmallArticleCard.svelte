@@ -3,8 +3,10 @@
 </script>
 
 <div role="listitem" class="">
+  <!-- {article.link} -->
   <a
-    href="{article.link}"
+    href="/"
+    target="_blank"
     class="blog-card w-inline-block"
     ><div class="blog-image-wrapper">
       <img

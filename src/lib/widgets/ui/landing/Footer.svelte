@@ -9,7 +9,7 @@
 <footer class="footer">
   <div class="container-default w-container">
     <ContactBlock>
-    <SecondaryBtn dataBtn={{text: 'Get in Touch!', link: 'https://darkdev-cv.vercel.app/'}}/>
+    <!-- <SecondaryBtn dataBtn={{text: 'Get in Touch!', link: 'https://darkdev-cv.vercel.app/'}}/> -->
     </ContactBlock>
 
     <div class="footer-middle">
@@ -65,14 +65,14 @@
           </div> -->
         </div>
       </div>
-      <div class="split-content">
+      <!-- <div class="split-content">
         <SmallNewsletterCard />
-      </div>
+      </div> -->
     </div>
-    <div data-w-id="f433562b-d67f-0da5-6531-43714c8bd3ed" class="footer-bottom">
+    <!-- <div data-w-id="f433562b-d67f-0da5-6531-43714c8bd3ed" class="footer-bottom">
       <div>Copyright © 44Games | Development by <a href="https://darkdev-cv.vercel.app/" target="_blank" class="color-neutral-401">Oleg_DarkDev</a>
       </div>
-    </div>
+    </div> -->
   </div>
 </footer>
 
